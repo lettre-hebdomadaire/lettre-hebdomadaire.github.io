@@ -5,21 +5,19 @@ body {
 	margin: 0px;
 	padding: 10px;
 	background-color:#F3F3F3;
-	text-align: justify;
 }
 
-.maligne
-{
-margin-bottom:0px;
-border-bottom: solid 1px #F3F3F3;
-width:100%;
+.maligne {
+	margin-bottom:0px;
+	border-bottom: solid 1px #F3F3F3;
+	width:100%;
 }
 
 img {
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #ppal {
@@ -52,8 +50,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-A.menulink
-{
+A.menulink {
 	display: block;
 	width: 150px;
 	text-align: right;
@@ -64,8 +61,7 @@ A.menulink
 	border: solid 1px #ffffff;
 }
 
-A.menulink:hover
-{
+A.menulink:hover {
 	/*border: solid 1px #ff0000;	*/
 	/*background-color:#F9F9F9;*/
 	text-decoration: underline;
@@ -111,4 +107,25 @@ A.menulink:hover
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 7pt;
 	color: #808080;
+}
+
+.topnav {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+.topnav a {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	width: 100px;
+}
+.topnav a:hover {
+	width: 101px;
+}
+.topnav img {
+	width: 100%;
+	height: auto;
 }
