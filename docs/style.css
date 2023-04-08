@@ -16,7 +16,6 @@ width:100%;
 }
 
 img {
-  max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -35,7 +34,8 @@ img {
 	padding-left: 0px;
 	background-color: #FFFFFF;
 	border: 1px solid #CCCCCC;
-	}
+	display: block;
+}
 	
 td {
 	font-family: Georgia, "Times New Roman", Times, serif;
