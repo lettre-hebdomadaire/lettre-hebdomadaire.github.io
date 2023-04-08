@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> Taquin </title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style_taquin.css" />
+        <script src="taquin.js"></script>
+    </head>
+    
+    <body>
+        <div id="taquin">
+            <div id="floating">
+                <div class="letter l1"> B </div>
+                <div class="letter l2"> R </div>
+                <div class="letter l3"> A </div>
+                <div class="letter l4"> V </div>
+                <div class="letter l5"> O </div>
+                <div class="letter l6"> ! </div>
+            </div>
+            <layout-linear vertical>
+                <canvas id="canvas" class="base" width="500" height="500"></canvas>
+                <div id="menu">
+                    <div id="moves">Nombre de coups : 0</div><br>
+                    <button id="newGame" class="menu_button" onclick="shuffle()">Nouvelle partie</button> <br>
+                    <button id="help" class="menu_button" onclick="help()">Je suis nul.le &#128557;</button>
+                    <button id="help-2" class="menu_button" onclick="help_2()">Vraiment aidez moi je suis éclaté.e au sol &#128534;</button>
+                </div>
+            </layout-linear>
+            
+        </div>
+    </body>
+</html>
