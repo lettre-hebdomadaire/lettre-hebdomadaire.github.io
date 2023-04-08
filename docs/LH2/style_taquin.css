@@ -20,7 +20,7 @@
 .menu_button:active {
     background: #bfbfbf;
 }
-#menu {
+#menu_taquin {
     width: 498px;
     border: 1px solid #000;
     justify-content: center;
@@ -30,14 +30,15 @@
     padding: 20px;
     width: 500px;
 }
-layout-linear[horizontal] {
+/*
+layout-linear[vertical] {
     box-sizing: border-box;
     padding : 1px 1px 1px 1px;
     white-space: nowrap;
     width : 100%;
     clear : both;
     text-align : center;
-}
+}*/
 #moves {
     font-size: larger;
 }
