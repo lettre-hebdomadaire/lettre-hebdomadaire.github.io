@@ -21,7 +21,7 @@ var colors = [
 ];
 
 var img = new Image();
-img.src = 'img/nicolas-glady-2.jpg';
+img.src = 'assets/nicolas-glady-2.jpg';
 
 var hole_color = 'black';
 
