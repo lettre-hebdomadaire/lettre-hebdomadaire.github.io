@@ -140,9 +140,7 @@ A.menulink:hover {
 	width: auto;
 	background-color: #FFF;
 }
-.topnav-right a.img-link:hover {
-	height: 95%;
-}
+
 .topnav-left a.img-link {
 	float: left;
 	text-align: center;
@@ -151,10 +149,6 @@ A.menulink:hover {
 	width: auto;
 	background-color: #FFF;
 }
-.topnav-left a.img-link:hover {
-	height: 95%;
-}
-
 img.langlink {
 	max-height: 50%;
 	height: 50%;
