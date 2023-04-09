@@ -3,7 +3,7 @@ body {
 	font-size: 10pt;
 	color: #000000;
 	margin: 0px;
-	padding: 10px;
+	padding: 0px;
 	background-color:#F3F3F3;
 }
 
@@ -110,21 +110,64 @@ A.menulink:hover {
 }
 
 .topnav {
-	position: absolute;
 	top: 0%;
 	left: 0%;
+	width: 100%;
+	height: 70px;
+	background-color: gray;
+	margin: 0px;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+.topnav-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	text-align: left;
 }
 
-.topnav a {
+.topnav-right {
+	float: right;
+	width: 50%;
+	height: 100%;
+	text-align: right;
+}
+.topnav-right a.img-link {
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	height: 100%;
+	width: auto;
+	background-color: #FFF;
+}
+.topnav-right a.img-link:hover {
+	height: 95%;
+}
+.topnav-left a.img-link {
 	float: left;
 	text-align: center;
 	text-decoration: none;
-	width: 40px;
+	height: 100%;
+	width: auto;
+	background-color: #FFF;
 }
-.topnav a:hover {
-	width: 41px;
+.topnav-left a.img-link:hover {
+	height: 95%;
 }
-.topnav img {
-	width: 100%;
-	height: auto;
+
+img.langlink {
+	max-height: 50%;
+	height: 50%;
+	width: auto;
+	padding: 1px;
+}
+div#lang {
+	max-height: 100%;
+	height: 100%;
+}
+div#lang a {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: right;
 }
