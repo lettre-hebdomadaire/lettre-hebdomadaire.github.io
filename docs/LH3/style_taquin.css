@@ -1,0 +1,86 @@
+.base {
+    transform: rotate3d(0, 1, 0.5, 0deg);
+    transition: all 1s;
+    margin: 0;
+    padding: 0;
+}
+.base.anim {
+    transform: rotate3d(0, 1, 0.5, 720deg);
+}
+
+.menu_button {
+    margin: 0px;
+    border: 0px;
+    font-size: larger;
+    background: #bababa;
+}
+.menu_button:hover {
+    background: #a0a0a0;
+}
+.menu_button:active {
+    background: #bfbfbf;
+}
+#menu_taquin {
+    width: 498px;
+    border: 1px solid #000;
+    justify-content: center;
+}
+#taquin {
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+}
+
+#moves {
+    font-size: larger;
+}
+#floating {
+    position: absolute;
+    z-index: 100;
+    left: -20%;
+    top: 30%;
+    transition: none;
+    white-space: nowrap;
+}
+#floating.anim {
+    transition: left 5s linear;
+    left: 100%;
+}
+.letter {
+    position: relative;
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+    *display: inline;
+    animation: 0.5s ease-in-out 1s infinite alternate slidein;
+    text-shadow: 30px 30px 8px #000000;
+}
+.l1 {
+    color: indigo;
+    animation-delay: 0.5s;
+}
+.l2 {
+    color: orange;
+    animation-delay: 0.4s;
+}
+.l3 {
+    color: green;
+    animation-delay: 0.3s;
+}
+.l4 {
+    color: red;
+    animation-delay: 0.2s;
+}
+.l5 {
+    color: blue;
+    animation-delay: 0.1s;
+}
+.l6 {
+    color: yellow;
+    animation-delay: 0.0s;
+}
+
+@keyframes slidein {
+    from { transform: translateY(0); }
+    to { transform: translateY(50px); }
+}
