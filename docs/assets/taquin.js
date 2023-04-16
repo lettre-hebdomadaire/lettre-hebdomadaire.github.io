@@ -1,12 +1,8 @@
 // Jeu de Taquin
 var ctx, can;
 var game = {
-    cases: [
-        [1, 2, 3, 4],
-        [5, 6, 7, 8],
-        [9, 10, 11, 12],
-        [13, 14, 15, 0]
-    ], 
+    size : 4,
+    cases: [],
     emptyCell: {
         x: 3,
         y: 3
@@ -55,13 +51,16 @@ var interval_id = null;
 var has_won = false;
 
 function shuffle() {
-    game.cases = [
-        [1, 2, 3, 4],
-        [5, 6, 7, 8],
-        [9, 10, 11, 12],
-        [13, 14, 15, 0]
-    ];
-    game.emptyCell = { x: 3, y: 3 };
+    game.size = 4;
+    game.cases = [];
+    for (var i = 0; i < game.size; i++) {
+        game.cases[i] = [];
+        for (var j = 0; j < game.size; j++) {
+            game.cases[i][j] = i * game.size + j + 1;
+        }
+    }
+    game.emptyCell = { x: game.size - 1, y: game.size - 1 };
+    game.cases[game.size - 1][game.size - 1] = 0;
     game.moves = 0;
 
     has_won = false;
@@ -79,9 +78,9 @@ function shuffle() {
 }
 
 function shuffle_once() {
-    var x = Math.floor(Math.random() * 4);
-    var y = Math.floor(Math.random() * 4);
-    click({clientX: x * can.width / 4 + can.offsetLeft, clientY: y * can.height / 4 + can.offsetTop});
+    var x = Math.floor(Math.random() * game.size);
+    var y = Math.floor(Math.random() * game.size);
+    click({clientX: x * can.width / game.size + can.offsetLeft, clientY: y * can.height / game.size + can.offsetTop});
     
 }
 
@@ -89,20 +88,20 @@ function draw() {
     ctx.fillStyle = hole_color;
     ctx.fillRect(0, 0, can.width, can.height);
 
-    var w = can.width / 4;
-    var h = can.height / 4;
+    var w = can.width / game.size;
+    var h = can.height / game.size;
 
-    for (var i = 0; i < game.cases.length; i++) {
-        for (var j = 0; j < game.cases[i].length; j++) {
+    for (var i = 0; i < game.size; i++) {
+        for (var j = 0; j < game.size; j++) {
             if (game.cases[i][j] != 0) {
                 var x = j * w;
                 var y = i * h;
 
                 if(loaded) {
-                    var imW = img.width / 4;
-                    var imH = img.height / 4;
-                    var sx = (game.cases[i][j] - 1) % 4 * imW;
-                    var sy = Math.floor((game.cases[i][j] - 1) / 4) * imH;
+                    var imW = img.width / game.size;
+                    var imH = img.height / game.size;
+                    var sx = (game.cases[i][j] - 1) % game.size * imW;
+                    var sy = Math.floor((game.cases[i][j] - 1) / game.size) * imH;
                     ctx.drawImage(img, sx, sy, imW, imH, x, y, w, h);
 
                     if(show_help && !has_won) {
@@ -137,8 +136,8 @@ function click(e) {
     const rect = can.getBoundingClientRect();
     var x = e.clientX - rect.left;
     var y = e.clientY - rect.top;
-    var w = can.width / 4;
-    var h = can.height / 4;
+    var w = can.width / game.size;
+    var h = can.height / game.size;
 
     var i = Math.floor(y / h);
     var j = Math.floor(x / w);
@@ -181,13 +180,13 @@ function click(e) {
 
     if(in_game) {
         var fini = true;
-        for(var i = 0; i<15; i++) {
-            if(game.cases[Math.floor(i/4)][i%4] != i+1) {
+        for(var i = 0; i<game.size * game.size - 1; i++) {
+            if(game.cases[Math.floor(i/game.size)][i%game.size] != i+1) {
                 fini = false
                 break;
             }
         }
-        if(game.cases[3][3] != 0) fini = false;
+        if(game.cases[game.size-1][game.size] != 0) fini = false;
         if(fini) {
             show_grid = false;
             can.classList.add('anim');
