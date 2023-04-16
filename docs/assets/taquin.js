@@ -21,7 +21,7 @@ var colors = [
 ];
 
 var img = new Image();
-img.src = 'assets/bensa.jpg';
+img.src = locales.img_source;
 
 var hole_color = 'black';
 
@@ -134,8 +134,9 @@ function draw() {
 }
 
 function click(e) {
-    var x = e.clientX - can.offsetLeft;
-    var y = e.clientY - can.offsetTop;
+    const rect = can.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var y = e.clientY - rect.top;
     var w = can.width / 4;
     var h = can.height / 4;
 
@@ -202,10 +203,10 @@ function click(e) {
 function help() {
     show_help = !show_help;
     if(show_help) {
-        document.getElementById('help').innerHTML = locales.unhelp + '&#128526;';
+        document.getElementById('help').innerHTML = locales.unhelp + ' &#128526;';
         document.getElementById('help-2').style.display = 'block';
     } else {
-        document.getElementById('help').innerHTML = locales.help + '&#128557;';
+        document.getElementById('help').innerHTML = locales.help + ' &#128557;';
         document.getElementById('help-2').style.display = 'none';
     }
     draw();
