@@ -117,6 +117,9 @@ function draw() {
                         ctx.strokeStyle = 'white';
                         ctx.lineWidth = 2;
                         ctx.strokeRect(x, y, w, h);
+                        ctx.strokeStyle = 'black';
+                        ctx.lineWidth = 1;
+                        ctx.strokeRect(x, y, w, h);
                     }
 
 
