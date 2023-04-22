@@ -118,6 +118,7 @@ A.menulink:hover {
 	margin: 0px;
 	margin-bottom: 15px;
 	padding: 5px;
+	box-sizing: border-box;
 }
 .topnav-left {
 	float: left;
