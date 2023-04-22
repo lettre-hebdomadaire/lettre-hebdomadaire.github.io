@@ -186,7 +186,7 @@ function click(e) {
                 break;
             }
         }
-        if(game.cases[game.size-1][game.size] != 0) fini = false;
+        if(game.cases[game.size-1][game.size-1] != 0) fini = false;
         if(fini) {
             show_grid = false;
             can.classList.add('anim');
