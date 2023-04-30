@@ -160,6 +160,7 @@ A.menulink:hover {
 	height: 100%;
 	width: auto;
 	background-color: #FFF;
+	padding: 0px;
 }
 img.langlink {
 	max-height: 50%;
