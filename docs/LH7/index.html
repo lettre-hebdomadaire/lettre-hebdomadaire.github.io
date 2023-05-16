@@ -7,6 +7,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Cette semaine, des enseignements de Socrate, une recette de cuisine, une crotique ciné, une superbe fanfic et les incroyables memes hebdos." />
 		<link href="/style.css" rel="stylesheet" type="text/css">
+		<script>
+
+			video = null;
+			function toogleMute() {
+				video.muted = !video.muted;
+			}
+			window.onload = function() {
+				video = document.getElementById("video");
+				video.onclick=toogleMute;
+			}
+		</script>
 	</head>
 
 	<body>
@@ -27,22 +38,22 @@
 				</div>
 			</div>
 		</div>
-
+		
 		<div id="ppal">	
+			<video id="video" width="100%" height="auto" autoplay muted>
+				<source src="assets/starwars.mp4" type="video/mp4">
+			</video>
+			<p>Cliquez sur la vidéo pour activer le son</p>
+
 			<div id="banner" align="center">
 			<b>Edito du 15 mai 2023</b>
 			</div>
 			<div class="maligne"></div>
 
-			<div id="logo" align="center"> 
-				<img src="/assets/Logo_LH2.png" width=250 alt="Lettre Hebdomadaire" border="0">
-			</div>
-
 
 			<div id="menu">
 				<b><a href="crotique.html" class="menulink"> La Crotique Ciné </a></b><br>
 				<b><a href="recette.html" class="menulink"> Minestrone</a></b><br>
-				<b><a href="socrate.html" class="menulink"> La Mailleutique </a></b><br>
 				<b><a href="fanfic.html" class="menulink"> Fanfic </a></b><br>
 				<b><a href="memes.html" class="menulink"> Memes de la semaine </a></b><br>
 				<b><a href="taquin.html" class="menulink"> Rubiks-square </a></b><br>
@@ -55,7 +66,7 @@
 					Forte de cette preuve de qualité, l'équipe de la LH se motive et concocte une nouvelle édition. Cependant, pour des raisons purement administratives (et pas du tout d'organisation foireuse), la LH sort ce lundi, et vous la recevrez à présent tous les lundis matins. <br> 
 					Mais rassurez vous, cher.e.s lecteur.ice.s. La LH est toujours là, elle ne vous abandonnera pas (encore). Elle n'est pas passée du côté obscur de la Force (elle y a toujours été).
 				</p>
-				<p>Bien sûr, la lettre est ouverte à tous les télécommiens. Alors si vous avez des articles, des memes, des fictions, des jeux en javascript... Bref, si vous avez un truc qui vous passe par la tête, on le publiera pour vous ! Pas de pression, ça n'a pas besoin d'être parfait ! (et on peut le traduire en anglais ou français pour vous)
+				<p align="justify">Bien sûr, la lettre est ouverte à tous les télécommiens. Alors si vous avez des articles, des memes, des fictions, des jeux en javascript... Bref, si vous avez un truc qui vous passe par la tête, on le publiera pour vous ! Pas de pression, ça n'a pas besoin d'être parfait ! (et on peut le traduire en anglais ou français pour vous)
 					<br>Envoyez ça par <a href="https://www.facebook.com/profile.php?id=100091511889368">mp facebook</a> ou par mail à <a href="mailto:lettre.hebdomadaire.telecom@gmail.com">lettre.hebdomadaire.telecom@gmail.com</a>
 				</p>
 			</div>
