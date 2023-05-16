@@ -176,6 +176,7 @@ var Physics = {
         var obj1Normals = this.constructNormals(obj1Vertices);
         var obj2Normals = this.constructNormals(obj2Vertices);
         
+        
 
     }
 }
