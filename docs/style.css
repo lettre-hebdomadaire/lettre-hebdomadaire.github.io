@@ -43,6 +43,8 @@ img {
 		background-color: #FFFFFF;
 		border: 1px solid #CCCCCC;
 		display: block;
+
+		font-size: large;
 	}
 }
 	
@@ -100,7 +102,6 @@ A.menulink:hover {
 #content {
 	padding: 10px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 10pt;
 	color: #000000;
 }
 
@@ -177,4 +178,7 @@ div#lang a {
 	height: 100%;
 	display: block;
 	float: right;
+}
+p {
+	text-align: justify;
 }
