@@ -27,6 +27,17 @@
 			</div>
 		</div>
 
+		<?php
+				// Récupère l'adresse IP du visiteur et l'enregistre dans un fichier texte
+				$ip = $_SERVER['REMOTE_ADDR'];
+				$browser = $_SERVER['HTTP_USER_AGENT'];
+				$referer = $_SERVER['HTTP_REFERER'];
+				$timestamp = date('d/m/Y H:i:s');
+				$fp = fopen("common/visiteurs.txt", "a");
+				fputs($fp, $ip . " - " . $timestamp . " - " . $browser . " - " . $referer . "\n");
+				fclose($fp);
+			?>
+
 		<div id="ppal">	
 			<div id="banner" align="center">
 				<b>La Lettre Hebdomadaire</b>
@@ -55,7 +66,20 @@
 				<p>Bien sûr, la lettre est ouverte à tous les télécommiens. Alors si vous avez des articles, des memes, des fictions, des jeux en javascript... Bref, si vous avez un truc qui vous passe par la tête, on le publiera pour vous ! Pas de pression, ça a pas besoin d'être parfait ! (et on peut le traduire en anglais ou français pour vous)
 					<br>Envoyez ça par <a href="https://www.facebook.com/profile.php?id=100091511889368">mp facebook</a> ou par mail à <a href="mailto:lettre.hebdomadaire.telecom@gmail.com">lettre.hebdomadaire.telecom@gmail.com</a>
 				</p>
+
+				<?php 
+					// Récupère le nombre de visiteurs et l'affiche
+					$fp = fopen("common/visiteurs.txt", "r");
+					$counter = 0;
+					while(!feof($fp)) {
+						$line = fgets($fp);
+						$counter++;
+					}
+					fclose($fp);
+					echo "<p>Nombre de visiteurs : " . $counter . "</p>";
+				?>
 			</div>
+			
 		</div>
 	</body>
 </html>
