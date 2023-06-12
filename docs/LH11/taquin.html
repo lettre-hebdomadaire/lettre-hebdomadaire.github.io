@@ -8,15 +8,15 @@
         <link rel="stylesheet" href="/assets/style_taquin.css" type="text/css"/>
         <script>
             var locales = {
-                moves : "Moves : ",
-                newGame : "New game",
-                help : "I suck",
-                unhelp : "I manage like a big boy/girl",
-                help_2 : "Please help me I suck ass",
+                moves : "Nombre de coups : ",
+                newGame : "Nouvelle partie",
+                help : "Je suis nul.le",
+                unhelp : "Je me débrouille comme un.e grand.e",
+                help_2 : "Vraiment aidez moi je suis éclaté.e au sol",
 
-                help_message : "The image needs to be rearranged by moving the tiles. The general method is to rearrange the tiles in order, row by row, for the first two rows, then column by column for the last two, all in reading order. If you still can't do it, search on the internet, I'm too lazy to explain more.",
+                help_message : "Il faut remettre l'image dans le bon ordre en déplaçant les cases.\nLa méthode générale est : remettre les cases dans l'ordre ligne par ligne pour les deux premières lignes, puis colonnes par colonnes pour les deux dernieres, tout cela dans l'ordre de lecture.\nSi vous n'y arrivez toujours pas, cherchez sur internet la flemme d'expliquer plus.",
 
-                img_source : "/LH10/assets/escape.jpg"
+                img_source : "/LH11/assets/desert.jpg"
             };
         </script>
         <script src="/assets/taquin.js"></script>
@@ -25,14 +25,14 @@
     <body>
         <div class="topnav">
 			<div class="topnav-left">
-				<a class="img-link" href="/index-en.html">
+				<a class="img-link" href="/">
 					<img class="img-link" style="max-height:100%; width:auto;" src="/assets/Logo_LH2.png" alt="Lettre Hebdomadaire" border="0">
 				</a>
                 <a class="img-link" style=" background-color: transparent;">
 					<div class="img-link" style="width:10px; background-color: transparent;"></div>
                 </a>
-				<a class="img-link" href="/LH10/index-en.html">
-					<img class="img-link" style="max-height:100%; width:auto;" src="/assets/edito-en.png" alt="Lettre Hebdomadaire" border="0">
+				<a class="img-link" href="/LH11">
+					<img class="img-link" style="max-height:100%; width:auto;" src="/assets/edito.png" alt="Lettre Hebdomadaire" border="0">
 				</a>
 			</div>
 			<div class="topnav-right">
@@ -59,10 +59,10 @@
             <div>
                 <canvas id="canvas" class="base" width="500" height="500"></canvas>
                 <div id="menu_taquin">
-                    <div id="moves">Moves : 0</div><br>
-                    <button id="newGame" class="menu_button" onclick="shuffle()">New game</button> <br>
-                    <button id="help" class="menu_button" onclick="help()">I suck &#128557;</button>
-                    <button id="help-2" class="menu_button" onclick="help_2()">Please help me I suck ass &#128534;</button>
+                    <div id="moves">Nombre de coups : 0</div><br>
+                    <button id="newGame" class="menu_button" onclick="shuffle()">Nouvelle partie</button> <br>
+                    <button id="help" class="menu_button" onclick="help()">Je suis nul.le &#128557;</button>
+                    <button id="help-2" class="menu_button" onclick="help_2()">Vraiment aidez moi je suis éclaté.e au sol &#128534;</button>
                 </div>
             </layout-linear>
             
