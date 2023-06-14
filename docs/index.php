@@ -70,13 +70,13 @@
 					$visiteur = array('ip' => $ip, 'date' => $date, 'page' => $page);
 					$visiteurs = json_decode(file_get_contents("common/visiteurs.json"), true);
 					$visiteurs[] = $visiteur;
-					file_put_contents("common/visiteurs.json", json_encode($visiteurs));
+					file_put_contents("visiteurs.json", json_encode($visiteurs));
 
 				?>
 
 				<?php 
 					// Récupère le nombre de visiteurs et l'affiche
-					$visiteurs = json_decode(file_get_contents("common/visiteurs.json"), true);
+					$visiteurs = json_decode(file_get_contents("visiteurs.json"), true);
 					$nb_visiteurs = count($visiteurs);
 					echo "<div id=\"visiteurs\">Nombre de visiteurs : $nb_visiteurs</div>";
 				?>
