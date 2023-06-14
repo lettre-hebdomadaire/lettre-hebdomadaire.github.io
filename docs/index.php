@@ -61,6 +61,25 @@
 				<p>Bien sûr, la lettre est ouverte à tous les télécommiens. Alors si vous avez des articles, des memes, des fictions, des jeux en javascript... Bref, si vous avez un truc qui vous passe par la tête, on le publiera pour vous ! Pas de pression, ça a pas besoin d'être parfait ! (et on peut le traduire en anglais ou français pour vous)
 					<br>Envoyez ça par <a href="https://www.facebook.com/profile.php?id=100091511889368">mp facebook</a> ou par mail à <a href="mailto:lettre.hebdomadaire.telecom@gmail.com">lettre.hebdomadaire.telecom@gmail.com</a>
 				</p>
+
+				<?php
+					// Récupère adresse IP, page actelle et  date du visiteur et l'enregistre dans un fichier json
+					$ip = $_SERVER['REMOTE_ADDR'];
+					$date = date("d/m/Y");
+					$page = $_SERVER['REQUEST_URI'];
+					$visiteur = array('ip' => $ip, 'date' => $date, 'page' => $page);
+					$visiteurs = json_decode(file_get_contents("common/visiteurs.json"), true);
+					$visiteurs[] = $visiteur;
+					file_put_contents("common/visiteurs.json", json_encode($visiteurs));
+
+				?>
+
+				<?php 
+					// Récupère le nombre de visiteurs et l'affiche
+					$visiteurs = json_decode(file_get_contents("common/visiteurs.json"), true);
+					$nb_visiteurs = count($visiteurs);
+					echo "<div id=\"visiteurs\">Nombre de visiteurs : $nb_visiteurs</div>";
+				?>
 			</div>
 		</div>
 	</body>
