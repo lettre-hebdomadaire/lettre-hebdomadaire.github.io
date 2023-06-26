@@ -1,0 +1,47 @@
+---
+import fr from "../images/fr.png";
+import en from "../images/en.png";
+import Logo from "../images/Logo_LH2.png";
+import "../styles/style.css";
+import FooterEn from "../components/FooterEn.astro";
+import FooterFr from "../components/FooterFr.astro";
+import Template from "./Template.astro";
+const { posts, lang = "fr", date = null } = Astro.props;
+const { lh } = Astro.params;
+
+const optionsDate = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+const correctDate = date ? new Date(date).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB", optionsDate) : "";
+---
+
+<Template title={`${correctDate} - ${lh}`} langHeader={true} lang={lang}>
+    <div id="banner" align="center">
+        <b>Edito du {correctDate || "(pas de date !!)"}</b>
+    </div>
+    <div class="maligne"></div>
+
+    <div id="logo" align="center">
+        <img src={Logo} width="250" alt="Lettre Hebdomadaire" border="0" />
+    </div>
+
+    <div id="menu">
+        {
+            posts.map((post) => (
+                <>
+                    <b>
+                        <a class="menulink" href={`${post.file.split("/").pop().split(".").slice(0, -1).join(".")}`}>
+                            {post.frontmatter.title}
+                        </a>
+                    </b>
+                    <br />
+                </>
+            ))
+        }
+    </div>
+    <div id="content">
+        <p>
+            <slot />
+        </p>
+        {lang === "en" && <FooterEn />}
+        {lang === "fr" && <FooterFr />}
+    </div>
+</Template>

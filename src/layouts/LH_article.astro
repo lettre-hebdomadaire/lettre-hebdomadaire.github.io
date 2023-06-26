@@ -1,0 +1,8 @@
+---
+import Template from "./Template.astro";
+const { lang, title } = Astro.props;
+---
+
+<Template title={title} langHeader={true} isArticle={true}>
+    <slot />
+</Template>

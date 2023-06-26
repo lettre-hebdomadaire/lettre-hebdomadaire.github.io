@@ -1,0 +1,100 @@
+---
+import Template from "../layouts/Template.astro";
+import Logo from "../images/Logo_LH2.png";
+
+const regex = /.*\/LH\/LH(.*?)\/.*/;
+const lhs = await Astro.glob("/LH/**/fr/index.md*");
+const goodLhs = lhs
+    .sort((a, b) => {
+        a.file
+            .replace(regex, "$1")
+            .localeCompare(b.file.replace(regex, "$1"), undefined, { numeric: true, sensitivity: "base" });
+    })
+    .map((oneLh) => {
+        const title = oneLh.frontmatter?.pubDate
+            ? new Date(oneLh.frontmatter.pubDate).toLocaleDateString("fr-FR", {
+                  weekday: "long",
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+              })
+            : "";
+        return { title: `Parution du ${title}`, link: `LH${oneLh.file.replace(regex, "$1")}` };
+    });
+
+const { title, lang = "fr" } = Astro.props;
+---
+
+<Template langHeader={true} lang={lang} isIndex={true}>
+    <div id="banner">
+        <b>{title}</b>
+    </div>
+    <div class="maligne"></div>
+
+    <div id="logo">
+        <img src={Logo} width="250" alt="Lettre Hebdomadaire" />
+    </div>
+    <div class="menu-index">
+        <div id="menu">
+            <h4>Parutions</h4>
+            <div>
+                {
+                    goodLhs.map((post) => (
+                        <>
+                            <b>
+                                <a href={`/${post.link}/fr/`} class="menulink">
+                                    {post.title}
+                                </a>
+                            </b>
+                            <br />
+                        </>
+                    ))
+                }
+            </div>
+        </div>
+
+        <div id="content">
+            <slot />
+        </div>
+    </div>
+</Template>
+
+<style>
+    .menulink {
+        display: block;
+        text-align: right;
+        text-decoration: none;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 10pt;
+        color: #9b0000;
+        border: solid 1px #ffffff;
+    }
+
+    .menulink:hover {
+        /*border: solid 1px #ff0000;	*/
+        /*background-color:#F9F9F9;*/
+        text-decoration: underline;
+    }
+    .menu-index {
+        display: flex;
+    }
+    .menu-index > * {
+        flex: 1;
+    }
+    .menu-index #menu {
+        flex: 0.5;
+    }
+    #menu div {
+        overflow-y: scroll;
+        height: 100%;
+        max-height: 300px;
+    }
+    #menu h4 {
+        text-align: right;
+    }
+    #menu {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+</style>

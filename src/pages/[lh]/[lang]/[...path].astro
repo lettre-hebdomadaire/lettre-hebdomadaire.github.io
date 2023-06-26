@@ -1,0 +1,39 @@
+---
+import fs from "fs";
+import LH_article from "../../../layouts/LH_lang.astro";
+
+export async function getStaticPaths() {
+    const articles = await Astro.glob("/LH/**/*.mdx");
+    const listLhs = fs.readdirSync("LH/").filter((lh) => lh.startsWith("LH"));
+    let routes = [];
+    for (const lhName of listLhs) {
+        const listLangs = fs.readdirSync(`LH/${lhName}/`);
+        for (const oneLang of listLangs) {
+            const listLhs = fs.readdirSync(`LH/${lhName}/${oneLang}/`);
+            for (const oneArticle of listLhs) {
+                const goodArticle = articles.find((e) => {
+                    return e.file.includes(`/LH/${lhName}/${oneLang}/${oneArticle}`);
+                });
+                if (goodArticle) {
+                    const path = goodArticle.file.split("/").pop().split(".").slice(0, -1).join(".");
+                    routes.push({
+                        params: { lh: lhName, path: path, lang: oneLang },
+                        props: {
+                            currentLh: goodArticle.Content,
+                            title: `${goodArticle?.frontmatter?.title || ""} - ${lhName}`,
+                        },
+                    });
+                }
+            }
+        }
+    }
+    return routes;
+}
+
+const { currentLh: Content, title } = Astro.props;
+const { lh, lang } = Astro.params;
+---
+
+<LH_article lang={lang} title={title}>
+    <Content />
+</LH_article>
