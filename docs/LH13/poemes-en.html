@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> 47,775 744 millions de poêmes </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/style.css" rel="stylesheet" type="text/css">
+
+		<script src="assets/poemes.js"></script>
+		<style>
+			@media screen and (max-width: 1100px) {
+				#ppal {
+					width: 95%;
+				}
+			}
+			@media screen and (min-width: 1100px) {
+				#ppal {
+					width: 1100px;
+				}
+			}
+			.side-parent {
+				display: flex;
+				flex-direction: row;
+			}
+			#select {
+				width: 50%;
+			}
+			#poeme {
+				width: 50%;
+			}
+		</style>
+	</head>
+	<body onload="init()">
+		<div class="topnav">
+			<div class="topnav-left">
+				<a class="img-link" href="/index-en.html">
+					<img class="img-link" style="max-height:100%; width:auto;" src="/assets/Logo_LH2.png" alt="Lettre Hebdomadaire" border="0">
+				</a>
+                <a class="img-link" style=" background-color: transparent;">
+					<div class="img-link" style="width:10px; background-color: transparent;"></div>
+                </a>
+				<a class="img-link" href="/LH13/index-en.html">
+					<img class="img-link" style="max-height:100%; width:auto;" src="/assets/edito-en.png" alt="Lettre Hebdomadaire" border="0">
+				</a>
+			</div>
+			<div class="topnav-right">
+				<div id="lang">
+					<a href="poemes.html" class="langlink">
+						<img src="/assets/fr.png" alt="Français" class="langlink" border="0">
+					</a>
+					<a href="poemes-en.html" class="langlink">
+						<img src="/assets/en.png" alt="English" class="langlink" border="0">
+					</a>	
+				</div>
+			</div>
+		</div>
+
+		<div id="ppal">
+			<div id="content">
+                <H1> 47,775 744 millions de poêmes </H1>
+				<button onclick="randomize(); updateHTML()"> Au hasard </button>
+				<br>
+				<br>
+				<div class="side-parent">
+					<div id="select"> </div>
+					<div id="poeme"> </div>
+				</div>
+				<div>
+					<p>Le miroir d'eau a été nettoyé, il n'est plus aussi beau qu'en début d'année hélas. Vous vous sentez triste, vous vous sentez perdu, vous ne savez pas quoi faire. L'art ! L'art est ... l'art de rendre tous vos sentiments en des gigas bangers que tout le monde va apprécier.</p>
+
+					<p>Je sais que certains ont besoin de partager ce qu'il y a dans leur petit coeur mais n'ont pas les mots qui suffisent. Je vous propose alors ce générateur de poèmes ! 14 vers organisés sous la forme classique du sonnet pour vous exprimer sur le miroir d'eau. 47 775 744 possibles, trouvez celui qui vous convient.</p>
+
+					<p style="font-size:larger;"> Pour l'occasion, nous organisons un jeu-concours ! Envoyez nous vos meilleurs poèmes, on les jugera, et vous aurez une chance de gagner un <b>fanart dédicacé de la fanfic babar</b> ! <br>
+					Par dm facebook ou par mail à <a href="mailto:lettre.hebdomadaire.telecom@gmail.com">lettre.hebdomadaire.telecom@gmail.com</a>.
+					</p>
+
+					<p>Je vous présente un petit exemple de poème réalisé :</p>
+
+					<p>Sous la pluie, ils s'embrassent sur le miroir d'eau<br>
+					Des grenouilles sans cesse, Ô mare de harem.<br>
+					La vie, quand on y pense, n'est qu'un piètre poème<br>
+					Quelle idée ! De partir, d'aller sur ce plateau...</p>
+
+					<p>Le miroir aux reflets, jaunes-vert par défaut<br>
+					Mais peut-on encore penser des stratagèmes ?<br>
+					Ils t'ont tué - pourtant - avais-tu le teint si blême ?<br>
+					Vidé... vide. Sans reflet, sans même un seul écho</p>
+
+					<p>Avec la nature, dans le patio tu reposes<br>
+					Il sera vivant, c'est une métamorphose !<br>
+					Le jour se meurt, lui reste et reste toujours la nuit</p>
+
+					<p>Dans l'ombre de ma plume, des golems créatures<br>
+					Que je t'ai ébloui, que je t'ai embelli<br>
+					De saphirs, d'améthystes et d'émeraudes pures</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
