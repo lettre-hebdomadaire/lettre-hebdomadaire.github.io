@@ -1,0 +1,16 @@
+---
+import { checkLH } from "../checker.js";
+import Template from "../layouts/Template.astro";
+const errors = checkLH();
+---
+
+<Template>
+    <h1>Errors</h1>
+    {
+        errors.map((oneError) => (
+            <p>
+                {oneError.file} : {oneError.message}
+            </p>
+        ))
+    }
+</Template>
