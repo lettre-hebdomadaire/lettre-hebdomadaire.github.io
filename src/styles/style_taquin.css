@@ -51,7 +51,6 @@
     font-size: 50px;
     color: white;
     display: inline-block;
-    *display: inline;
     animation: 0.5s ease-in-out 1s infinite alternate slidein;
     text-shadow: 30px 30px 8px #000000;
 }
