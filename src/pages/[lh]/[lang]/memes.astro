@@ -1,0 +1,38 @@
+---
+import fs from "fs"
+import LH_article from "../../../layouts/LH_lang.astro";
+
+export async function getStaticPaths() {
+    const listArticles = await Astro.glob("/LH/**/*.(mdx|md)");
+    const listLhs = fs.readdirSync("LH/").filter((lh) => lh.startsWith("LH"));
+    let routes = [];
+    for (const lhName of listLhs) {
+        const listLang = fs.readdirSync(`LH/${lhName}`);
+        for (const oneLang of listLang) {
+            const memeFolderPath = `LH/${lhName}/${oneLang}/memes`;
+            const memePageExists = fs.existsSync(memeFolderPath);
+            if(memePageExists) {
+                const memeImageFiles = fs.readdirSync(memeFolderPath);
+                routes.push({
+                    params: { lh: lhName, lang: oneLang },
+                    props: { 
+                        images: memeImageFiles
+                    },
+                });
+            }
+        }
+    }
+    return routes;
+}
+
+const { lh, lang } = Astro.params;
+const { images } = Astro.props;
+---
+
+<LH_article lang={lang} title="Memes de la semaine">
+    {
+    images.map((path) => (
+        <img src={`/LH/${lh}/${lang}/memes/${path}`} />
+    ))
+    }
+</LH_article>

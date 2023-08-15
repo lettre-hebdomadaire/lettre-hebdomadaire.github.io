@@ -9,10 +9,30 @@ export async function getStaticPaths() {
     for (const lhName of listLhs) {
         const listLang = fs.readdirSync(`LH/${lhName}`);
         for (const oneLang of listLang) {
+
+            const filteredLhs = listArticles.filter((oneArticle) =>
+                oneArticle.file.includes(`LH/${lhName}/${oneLang}/`) && !oneArticle.file.includes(`LH/${lhName}/${oneLang}/index`)
+            ).map(article => ({
+                name: article.file.split("/").pop().split(".").slice(0, -1).join("."),
+                linktitle: article.frontmatter?.linktitle,
+                title: article.frontmatter?.title
+            }));
+            
+            const memeFolderPath = `LH/${lhName}/${oneLang}/memes`;
+            const memePageExists = fs.existsSync(memeFolderPath);
+
+            if(memePageExists)
+                filteredLhs.push({
+                    name: "memes",
+                    title: "Les memes de la semaine"
+                });
+
+            console.log(filteredLhs);
+
             routes.push({
                 params: { lh: lhName, lang: oneLang },
                 props: {
-                    lhs: listArticles.filter((oneArticle) => oneArticle.file.includes(`LH/${lhName}/${oneLang}/`) && !oneArticle.file.includes(`LH/${lhName}/${oneLang}/index`)),
+                    lhs: filteredLhs,
                 },
             });
         }

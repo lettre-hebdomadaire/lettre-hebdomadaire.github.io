@@ -34,8 +34,8 @@ export async function getStaticPaths() {
     return routes;
 }
 
-const { currentLh: Content, title, coverimage, author, pubDate } = Astro.props;
-const { lh, lang } = Astro.params;
+const { lh, lang, path } = Astro.params;
+const { currentLh: Content, title, coverimage, author, pubDate, memeImageFiles } = Astro.props;
 
 const pageTitle = `${title || ""} - ${lh}`;
 ---
