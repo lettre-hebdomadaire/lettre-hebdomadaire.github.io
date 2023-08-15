@@ -6,7 +6,7 @@ import "../styles/style.css";
 import FooterEn from "../components/FooterEn.astro";
 import FooterFr from "../components/FooterFr.astro";
 import Template from "./Template.astro";
-const { posts, lang = "fr", date = null } = Astro.props;
+const { posts, lang = "fr", date = null, title } = Astro.props;
 const { lh } = Astro.params;
 
 const correctDate = date ? new Date(date).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB",
@@ -37,6 +37,7 @@ const correctDate = date ? new Date(date).toLocaleDateString(lang === "fr" ? "fr
             ))
         }
     </div>
+    <h1> {title} </h1>
     <div id="content">
         <p>
             <slot />

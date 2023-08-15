@@ -25,9 +25,8 @@ const { lh, lang } = Astro.params;
 const articles = await Astro.glob("/LH/**/*.(mdx|md)");
 
 const index = articles.find((e) => {
-    console.log(e.file);
     return e.file.includes(`LH/${lh}/${lang}/index`);
 });
 ---
 
-<LH_Index posts={lhs} lang={lang} date={index?.frontmatter?.pubDate}>{index && <index.Content />}</LH_Index>
+<LH_Index posts={lhs} lang={lang} date={index?.frontmatter?.pubDate} title={index?.frontmatter?.title}>{index && <index.Content />}</LH_Index>
