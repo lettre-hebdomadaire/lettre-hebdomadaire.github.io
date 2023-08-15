@@ -3,7 +3,7 @@ import LH_Index from "../../../layouts/LH_index.astro";
 import fs from "fs";
 
 export async function getStaticPaths() {
-    const listArticles = await Astro.glob("/LH/**/*.mdx");
+    const listArticles = await Astro.glob("/LH/**/*.(mdx|md)");
     const listLhs = fs.readdirSync("LH/").filter((lh) => lh.startsWith("LH"));
     let routes = [];
     for (const lhName of listLhs) {
@@ -12,7 +12,7 @@ export async function getStaticPaths() {
             routes.push({
                 params: { lh: lhName, lang: oneLang },
                 props: {
-                    lhs: listArticles.filter((oneArticle) => oneArticle.file.includes(`LH/${lhName}/${oneLang}/`)),
+                    lhs: listArticles.filter((oneArticle) => oneArticle.file.includes(`LH/${lhName}/${oneLang}/`) && !oneArticle.file.includes(`LH/${lhName}/${oneLang}/index`)),
                 },
             });
         }
@@ -22,9 +22,10 @@ export async function getStaticPaths() {
 
 const { lhs } = Astro.props;
 const { lh, lang } = Astro.params;
-const articles = await Astro.glob("/LH/**/*.mdx");
+const articles = await Astro.glob("/LH/**/*.(mdx|md)");
 
 const index = articles.find((e) => {
+    console.log(e.file);
     return e.file.includes(`LH/${lh}/${lang}/index`);
 });
 ---
