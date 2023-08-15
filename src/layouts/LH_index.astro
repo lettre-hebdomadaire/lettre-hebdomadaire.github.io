@@ -29,7 +29,7 @@ const correctDate = date ? new Date(date).toLocaleDateString(lang === "fr" ? "fr
                 <>
                     <b>
                         <a class="menulink" href={`${post.file.split("/").pop().split(".").slice(0, -1).join(".")}`}>
-                            {post.frontmatter.title}
+                            {post.frontmatter.linktitle ? post.frontmatter.linktitle : post.frontmatter.title}
                         </a>
                     </b>
                     <br />
