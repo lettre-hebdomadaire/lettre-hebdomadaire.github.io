@@ -32,7 +32,9 @@ const { images } = Astro.props;
 <LH_article lang={lang} title="Memes de la semaine">
     {
     images.map((path) => (
-        <img src={`/LH/${lh}/${lang}/memes/${path}`} />
+        <img src={`/LH/${lh}/${lang}/memes/${path}`} style="width: 90%; height: auto;" />
+        <br>
+        <br>
     ))
     }
 </LH_article>
