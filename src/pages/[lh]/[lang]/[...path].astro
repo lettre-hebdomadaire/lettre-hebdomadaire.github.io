@@ -16,11 +16,15 @@ export async function getStaticPaths() {
                 });
                 if (goodArticle) {
                     const path = goodArticle.file.split("/").pop().split(".").slice(0, -1).join(".");
+                    const imagePath = goodArticle?.frontmatter?.coverimage;
                     routes.push({
                         params: { lh: lhName, path: path, lang: oneLang },
                         props: {
                             currentLh: goodArticle.Content,
-                            title: `${goodArticle?.frontmatter?.title || ""} - ${lhName}`,
+                            title: goodArticle?.frontmatter?.title,
+                            author: goodArticle?.frontmatter?.author,
+                            coverimage: imagePath && `/LH/${lhName}/${oneLang}/${imagePath}`,
+                            pubDate: goodArticle?.frontmatter?.pubDate
                         },
                     });
                 }
@@ -30,10 +34,20 @@ export async function getStaticPaths() {
     return routes;
 }
 
-const { currentLh: Content, title } = Astro.props;
+const { currentLh: Content, title, coverimage, author, pubDate } = Astro.props;
 const { lh, lang } = Astro.params;
+
+const pageTitle = `${title || ""} - ${lh}`;
 ---
 
-<LH_article lang={lang} title={title}>
+<LH_article lang={lang} title={pageTitle}>
+    {coverimage && <img src={coverimage} style="width:100%;" height="auto" />}
+    <h1>{title}</h1>
+    <p style="font-size: smaller;">
+        <i> {author && <>Par {author} </>} {pubDate && <>le {new Date(pubDate).toLocaleDateString(lang == "fr" ? "fr-FR" : "en-EN", {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+    })} <> }</i></p>
     <Content />
 </LH_article>

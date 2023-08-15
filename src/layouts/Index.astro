@@ -33,67 +33,16 @@ const { title, lang = "fr" } = Astro.props;
     <div id="logo">
         <img src={Logo} width="250" alt="Lettre Hebdomadaire" />
     </div>
-    <div class="menu-index">
-        <div id="menu">
-            <h4>Parutions</h4>
-            <div>
-                {
-                    goodLhs.map((post) => (
-                        <>
-                            <b>
-                                <a href={`/${post.link}/fr/`} class="menulink">
-                                    {post.title}
-                                </a>
-                            </b>
-                            <br />
-                        </>
-                    ))
-                }
-            </div>
-        </div>
-
-        <div id="content">
-            <slot />
+    <div id="menu">
+        <h4>Parutions</h4>
+        <div style="overflow-y:scroll; height:250px;">
+            {goodLhs.map((post) => 
+                <b><a class="menulink" href={`/${post.link}/fr/`}>{post.title}</a></b><br>
+            )}
         </div>
     </div>
+
+    <div id="content">
+        <slot />
+    </div>
 </Template>
-
-<style>
-    .menulink {
-        display: block;
-        text-align: right;
-        text-decoration: none;
-        font-family: Georgia, "Times New Roman", Times, serif;
-        font-size: 10pt;
-        color: #9b0000;
-        border: solid 1px #ffffff;
-    }
-
-    .menulink:hover {
-        /*border: solid 1px #ff0000;	*/
-        /*background-color:#F9F9F9;*/
-        text-decoration: underline;
-    }
-    .menu-index {
-        display: flex;
-    }
-    .menu-index > * {
-        flex: 1;
-    }
-    .menu-index #menu {
-        flex: 0.5;
-    }
-    #menu div {
-        overflow-y: scroll;
-        height: 100%;
-        max-height: 300px;
-    }
-    #menu h4 {
-        text-align: right;
-    }
-    #menu {
-        margin: 0;
-        padding: 10px;
-        text-align: center;
-    }
-</style>

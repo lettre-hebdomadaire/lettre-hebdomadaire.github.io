@@ -1,6 +1,7 @@
 ---
 title: "Retour sur le Gala"
 pubDate: 2023-04-01
+coverimage: "gala.jpg"
 ---
 
 ## Une soirée ambiancée
