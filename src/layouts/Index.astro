@@ -13,7 +13,6 @@ const goodLhs = lhs
     .map((oneLh) => {
         const title = oneLh.frontmatter?.pubDate
             ? new Date(oneLh.frontmatter.pubDate).toLocaleDateString("fr-FR", {
-                  weekday: "long",
                   year: "numeric",
                   month: "long",
                   day: "numeric",

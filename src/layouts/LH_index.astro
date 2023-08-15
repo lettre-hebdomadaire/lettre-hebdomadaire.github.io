@@ -9,18 +9,18 @@ import Template from "./Template.astro";
 const { posts, lang = "fr", date = null } = Astro.props;
 const { lh } = Astro.params;
 
-const optionsDate = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
-const correctDate = date ? new Date(date).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB", optionsDate) : "";
+const correctDate = date ? new Date(date).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB",
+                    { year: "numeric", month: "long", day: "numeric" }) : "";
 ---
 
 <Template title={`${correctDate} - ${lh}`} langHeader={true} lang={lang}>
-    <div id="banner" align="center">
+    <div id="banner" text-align="center">
         <b>Edito du {correctDate || "(pas de date !!)"}</b>
     </div>
     <div class="maligne"></div>
 
-    <div id="logo" align="center">
-        <img src={Logo} width="250" alt="Lettre Hebdomadaire" border="0" />
+    <div id="logo" text-align="center">
+        <img src={Logo} style='width: 250px' alt="Lettre Hebdomadaire" />
     </div>
 
     <div id="menu">
