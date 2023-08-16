@@ -6,14 +6,14 @@ const regex = /.*\/LH\/LH(.*?)\/.*/;
 const lhs = await Astro.glob("/LH/**/fr/index.md*");
 const goodLhs = lhs
     .sort((a, b) => {
-        a.file
+        
+        return b.file
             .replace(regex, "$1")
-            .localeCompare(b.file.replace(regex, "$1"), undefined, { numeric: true, sensitivity: "base" });
+            .localeCompare(a.file.replace(regex, "$1"), undefined, { numeric: true, sensitivity: "base" });
     })
     .map((oneLh) => {
         const title = oneLh.frontmatter?.pubDate
             ? new Date(oneLh.frontmatter.pubDate).toLocaleDateString("fr-FR", {
-                  year: "numeric",
                   month: "long",
                   day: "numeric",
               })
