@@ -2,8 +2,6 @@
 title: "Un éléphant, ça trompe énormément - partie 3"
 linktitle: "Un éléphant, ça trompe énormément part 3"
 pubDate: 2023-05-29
-description: ""
-author: "Anonyme"
 tag: "babar"
 ---
 
