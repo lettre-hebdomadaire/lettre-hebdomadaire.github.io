@@ -22,6 +22,7 @@ export async function getStaticPaths() {
                         props: {
                             currentLh: goodArticle.Content,
                             title: goodArticle?.frontmatter?.title,
+                            subtitle: goodArticle?.frontmatter?.subtitle,
                             author: goodArticle?.frontmatter?.author,
                             coverimage: imagePath && `/LH/${lhName}/${oneLang}/${imagePath}`,
                             pubDate: goodArticle?.frontmatter?.pubDate
@@ -38,7 +39,7 @@ export async function getStaticPaths() {
 }
 
 const { lh, lang, path } = Astro.params;
-const { currentLh: Content, title, coverimage, author, pubDate, memeImageFiles } = Astro.props;
+const { currentLh: Content, title, subtitle, coverimage, author, pubDate, memeImageFiles } = Astro.props;
 
 const pageTitle = `${title || ""} - ${lh}`;
 ---
@@ -46,6 +47,7 @@ const pageTitle = `${title || ""} - ${lh}`;
 <LH_article lang={lang} title={pageTitle}>
     {coverimage && <img src={coverimage} style="width:100%;" height="auto" />}
     <h1>{title}</h1>
+    <h2>{subtitle}</h2>
     <p style="font-size: smaller;">
         <i> {author && <>Par {author} </>} {pubDate && <>le {new Date(pubDate).toLocaleDateString(lang == "fr" ? "fr-FR" : "en-EN", {
             year: 'numeric',
