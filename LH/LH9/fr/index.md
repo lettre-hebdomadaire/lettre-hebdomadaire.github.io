@@ -1,7 +1,6 @@
 ---
 title: "Faut arrêter de me demander des idées de titre hein"
 pubDate: 2023-05-29
-description: "Faut arrêter de me demander des idées de titre hein. Lettre Hebdomadaire n°9"
 author: "Telo Philippe"
 ---
 
