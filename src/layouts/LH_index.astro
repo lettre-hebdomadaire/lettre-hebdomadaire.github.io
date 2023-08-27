@@ -25,7 +25,7 @@ const correctDate = date ? new Date(date).toLocaleDateString(lang === "fr" ? "fr
 
     <div id="menu">
         {
-            posts.map((post) => (
+            posts.sort((post1, post2) => post1.order - post2.order).filter((post) => !post.draft).map((post) => (
                 <>
                     <b>
                         <a class="menulink" href={`${post.name}`}>
