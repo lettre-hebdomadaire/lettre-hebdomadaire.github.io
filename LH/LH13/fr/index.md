@@ -1,0 +1,11 @@
+---
+pubDate: 2023-06-26
+---
+
+&ensp; Déjà la fin de l'année... Le temps des concours et des oraux est déjà loin, alors que le WEI semble dater d'hier. Il s'est pourtant passé tellement de choses cette année, entre les trois campagnes, les weekends où les gens ont glissé de la neige ou ceux où ils ont mangé des champignons (le WEC weekend champignon), puis des partiels lugubres et des projets macabres comme le labyrinthe ou le PACT. En ce début d'année, nous n'étions même pas en vie, la LH était MORTE. Pire que morte, elle était enterrée, clouée, ratatinée et déjà bien trop pleurée, le deuil semblait terminé... Et pourtant ! Nous voilà, chaque semaine, presque régulièrement le même jour, à vous fabriquer minutieusemment des bangers. Notre talent, transformer la vie télécomienne en un trésor littéraire. Nous sommes les alchimistes de Telecom, de sa vie associative et de tous vos lundis.
+
+ La LH c'est nous, c'est vous, c'est nous tous, c'est la liberté, c'est la sincérité, c'est l'anarchie, c'est David contre Goliath, c'est un plaisir, une joie d'offrir et de recevoir ! Ecrivez-nous, devenez les plumes de la résistance, de la puissance, de la naissance, de la jouissance et même de la nuisance ! Que tous les aigris nous écrivent, et que les plus grands fêtards les affrontent ! La LH, c'est le colisée, c'est la bataille des idées.
+
+ Vous ne savez pas écrire ? Vous avez peur du ridicule ? Regardez ceux qui sont publiés, il y en a un qui a parlé de rivières d'excréments. La LH vous tend ses bras, elle ne regarde pas le passé, ne juge pas la prosodie ni même le vocabulaire, elle n'aime que vous, votre écriture et votre vision de la vie télécomienne.
+
+ L'année prochaine dans toutes vos associations, il y aura un espion, il y aura une taupe, il y aura un écrivain. Il sera discret, avec un bloc note, un bout de papier, un crayon aussi, et il écrira pour la LH. Les premières années, par dizaines, que dis-je par centaines (peut-être pas), formeront la fine fleure du journalisme platéllique et composeront régulièrement pour la LH. Alors, soyez prêts, montez dans le train tant qu'il est encore temps, car cette année, ce n'était que la renaissance du plus grand journal de l'histoire de la presse française.
