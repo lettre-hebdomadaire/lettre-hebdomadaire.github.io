@@ -1,11 +1,12 @@
 ---
-title: "La Minute du CHAT"
+title: "The minute of the CHAT"
 ---
 
-Dans la minute du CHAT, nous vous proposons de revenir sur un point de l'histoire telecommienne pendant quelques instants. Aujourd'hui, nous allons parler de Rezel ! 
 
-Rezel existe depuis presque 30 ans ! Créée par François Stragier et motivée par l'idée de Pierre-Luc Paour : utiliser le réseau téléphonique pour connecter les résidences des étudiants à Internet.
+In The minute of the CHAT, we offer you to come back shortly on a part of the telecommian history. Today, we will talk about Rezel!
 
-Rezel a d'ailleurs été officieusement un fournisseur d'accès internet avant France Telecom ! A l'époque, l'ENST (l'ancien nom de Telecom Paris) a financé en partie le chantier.
+Rezel has existed for almost 30 years! Created by François Stragier and supported by the idea of Pierre-Luc Paour: using the phone network to connect residences and students to the internet.
 
-Pour plus d'informations : https://chat.rezel.net/fr/assos/rezel
+Rezel has also been working informally as a network provider before France Telecom! At the time, the ENST (old name of Telecom Paris) had partially financed the construction.
+
+For more informations: https://chat.rezel.net/fr/assos/rezel

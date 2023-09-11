@@ -37,7 +37,7 @@ const { title, lang = "fr" } = Astro.props;
         <h4>Parutions</h4>
         <div style="overflow-y:scroll; height:250px;">
             {goodLhs.map((post) => 
-                <b><a class="menulink" href={`/${post.link}/fr/`}>{post.title}</a></b><br>
+                <b><a class="menulink" href={`/${post.link}/${lang}/`}>{post.title}</a></b><br>
             )}
         </div>
     </div>

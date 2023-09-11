@@ -1,81 +1,63 @@
 ---
-title: "Le mot des assos"
+title: "A word from the clubs"
 pubDate: 2023-08-28
 ---
-
-## Oyez oyez chers NainAs !
-Vous arrivez à télécom, et vous ne savez pas quoi faire de votre vie ? C'est que vous n'avez pas entendu parler de la vie associative de télécom ! (Comment ça vous n'êtes pas allés à la présentation des assos au WEI ??)\
-Les assos et clubs de télécom seront un aspect très important de votre vie de tous les jours, et deviendront bientôt comme votre deuxième famille, alors n'hésitez pas à vous renseigner et à aller visiter un max d'assos ! C'est gratuit (sauf rezel attention) et les gens seront ravis de vous parler de leurs assos !
-En tout cas, voici un petit mot de bienvenue de la part de toutes vos assos préférées !
+### Hark, Hark dear NainAs!
+You’ve just arrived at télécom and don’t know what to do with your life? That’s because you’ve never heard of the associative life at télécom! (How come you have skipped the presentation of the associations during the WEI ??)\
+The associations and clubs of télécom will take a major role in your daily life and will soon become like a second family to you, so don’t hesitate: inform yourself and come visit them ‘all! It’s free (except rezel beware) and everyone will be delighted to talk about their associations!\
+In any case, here’s a small word of welcome from all your favorite associations!
 
 ### Forum ASTER
-Nous chez Aster on organise un forum qui met en avant des entreprises respectueuses de l'environnement, alors rejoins nous !
-
+Us at Aster we organize a forum that puts forward environmental-friendly firms, so come and join us!
 ### Téléqueer
-A Téléqueer, on accueille tout le monde (LGBT+ ou non) pour organiser des événements autour du thème LGBT, donc si tu as des idées ou juste envie d’aider, n’hésite pas et rejoins nous !
-
+At Téléqueer, we welcome everyone (LGBT+ or not) to organize events around the LGBT theme, so if you have ideas or are just willing to help, don’t hesitate and join us!
 ### MàT (Maths à Télécom)
-Venez en amphi, on va tout quotienter, tout va bien se passer.
-
+Come in amphi, we all go regularly, everything will be fine.
+### KFT (Kebab Factory Telecom)
+Yummy yummy kebabs
 ### Bureau des internationaux (BDI)
-PAS QUE POUR LES INTERNATIONAUX, venez découvrir les quatres coins du monde en un seul lieu: Telecom
-
+NOT ONLY FOR INTERNATIONALS, come and discover the four corners of the world in a single place: Télécom.
 ### Ludotech
-Une seule chose à dire : venez jouer avec nous !
-
+Only one thing to say: come and play with us!
 ### Télécom Sound & Magic
-TSM c'est beaucoup de scènes, beaucoup de basses mais surtout beaucoup de multiprises 🗿🥖
-
+TSM it’s a lot of scenes, a lot of bass but most of all a lot of multi-sockets 🗿🥖
 ### Com N Rock in Tetech
-Des pieds écrabouillés, des cavaliers au sol, la tête qui tourne et beaucoup de rire, on vous attend au Rock tous les mardis soirs!! (contactez Pierina MILLE)
-
-### Télécom Imp'Hackt
-Télécom Imp'Hackt vous souhaite la bienvenue et a hâte de vous voir à Télécom dès la rentrée ! (en attendant : https://imphackt.rezel.net)
-
-### Télécom Suba Crew (fanfare)
-Mal de tête ? Souffle dans la trompette ! Marre des cours ? Tape sur la grosse caisse ! Pouet ? Rejoins le Télécom Suba Crew !\
-*Commentaire : LH = Lpouet Hpouet*
-
+Squashed feet, partner on the floor, feeling dizzy and lots of laughter, we welcome you at the Rock every Tuesday night!! (contact Pierina MILLE)
+### Télécom Imp’Hackt
+Télécom Imp’Hackt wish you a warm welcome and looks forward to seeing you at Télécom as soon as school starts! (while waiting : https://imphackt.rezel.net)
+### Télécom Souba Crew (fanfare)
+Headache? Blow the trumpet! Sick of classes? Hit the big drum shell! Toot? Join Télécom Souba Crew !
+*Comment: LH = LToot HToot*
+### TPS (Telecom Paris Steak)
+Yummy yummy burgers
 ### Télécom Robotics
-Bienvenue à toi, Robotics se fera un plaisir de t'accueillir pour t'initier au monde de la robotique ;)
-
-### Bureau Des Arts 
-Bienveillant, collaboratif, ouvert aux grands et nouveaux projets, le BDA vous souhaite la bienvenue à Télécom Paris !
-
+Welcome to you, Robotics will be pleased to receive you to initiate you into the world of robotic ;)
+### Bureau Des Arts
+Welcoming, collaborative, open to big and new projects, the BDA wish you a warm welcome at Télécom Paris!
 ### Telecom Breizh
-Bienvenue ! A Telecom Breizh, on peut te garantir 3 choses : du beurre salé, des crêpes et un ventre bien plein. Betek ar c'hentañ !
-
+Welcome! At Telecom Breizh, we can guarentee you three things: salted butter, crêpes and a well filled belly. Betek ar c’hentañ! (That’s breton)
 ### Télémontagne
-Que tu sois débutant curieux ou montagnard aguerri, Télémontagne te tend la corde pour t'évader de la platitude du plateau ! 
-
+That you may be a beginner or a seasoned mountain dweller, Télémontagne will hold the rope out to you to escape the platitude of the plateau!
 ### CCT (Communauté Chrétienne de Télécom)
-"En effet, là où deux ou trois sont rassemblés en mon nom, je suis au milieu d'eux." Mathieu 18.20. Alors n'hésitez pas à nous rejoindre tous les jeudis midi autour d'un bon repas !
-
+“For where two or three are gathered in my name, there am I among them.” Matthieu 18.20. So don’t hesitate and come join us every Thursday afternoon around a good meal!
 ### Comète
-Bienvenue ! Si t'aimes la photo, la vidéo ou l'infographie, Comète va te plaire ! Même si t'es débutant tu as toute ta place à Comète ;) 
-
+Welcome! If you crave photo, video, or infographic, Comète will suit you! Even if you’re a beginner you definitely have your place here at Comète ;)
 ### Telecom Etude
-Salut à toi ! Si tu cherche à gagner de l'argent ou à monter en compétences dans des domaines variés, n'hésite pas et viens à la JE. Tu peux aussi contacter Vincent Oechsel
-
-# Le mur de la Honte (on avait dit une phrase les gens)
-
+Hi to you! If you seek to earn money or level up in expertise in various domains, don’t hesitate and come to the JE (Junior Entreprise). You can also contact Vincent Oechsel
+# Wall of shame (we said only one sentence guys…)
 ### Rezel
-Bienvenue à Rezel, l'association d'informatique qui vous fibre à la vitesse de la lumière ! N'hésitez pas à nous rejoindre si vous souhaitez participer ou même créer des projets 💻
-
+Welcome to Rezel, the informatics association that brings you fiberoptic internet at lightspeed! Don’t hesitate and come join us if you wish to take part in or even create projects💻
 ### Forum Telecom Paris
-Salut à toi cher/chère nainA, on espère que t’as profité à fond du WEI et avons hâte de te retrouver à Telecom. Pour rappel, au Forum on mélange kiff et sérieux, organisations de rencontres pro et de soirées… un peu moins pro. Bref, le Forum, c’est THE asso, alors n’hésite pas à rejoindre l’équipe. Et surtout prépare toi à la première campagne Telecommienne… la meilleure 🤫🤫
-
+Hi to you dear nainA, we wish you enjoyed your WEI to the fullest and are looking forward to finding you again at Telecom. For a reminder, at the Forum we mix funness and seriousness, organizations of professional meeting and parties…a bit less professional. In short, the Forum is THE association, so don’t hesitate and join the team. And most of all prepare yourself for the first Telecommian campaign… the best one🤫🤫
 ### Teledrone
-Hello les NainA, dans ce club on fait du drone FPV (first person View) ou on pilote des drones avec des lunettes « de VR » ce qui nous permet de voir ce que le drone voit. Hâte de vous voir et de vous montrer ce qu’est le drone FPV. Si vous êtes intéressés ou curieux, passez à un atelier de découverte !
-
-### Telespoir 
-Bienvenue à tous les Nainas ! 🕊️ Télespoir, c’est l’association humanitaire de Télecom Paris. Elle mobilise les étudiants de l’école à travers des initiatives humanitaires tels que des maraudes, une épicerie solidaire, et des missions humanitaires.
-
+Hello NainA, in this club we do FPV (First Person View) drone, where we pilot drones with “VR” glasses allowing us to see what the drone sees. Looking forward to seeing you and to showing you what’s the FPV drone. If you’re interested or curious, come to a discovery workshop!
+TBF (Telecom Business and Finance) (Ou Telecom Binance and Fitness)
+Have you seen the Wolf of Wall Street and are dreaming of joining an association where people say fuck ten times per minute and where you run on cocaine? Hesitate no more, Telecom Business and Finance is made for you! Well, this part might be false but what is true is that we’re coming back as soon as October with trading and crypto/blockchain workshop and conferences with prestigious guests to make you discover the universe of finance, entrepreneurship, council – in short, everything you’re not taught enough at Télécom!
+### Telespoir
+Welcome for every NainAS! 🕊️ Télespoir is the humanitarian association of Télécom Paris. It mobilizes the students throughout humanitarian initiatives such as collects, a solidarity grocery and humanitarian missions.
 ### Lettre Hebdomadaire
-Tu aimes les ragots, les histoires foireuses et la désinformation ? Tu veux écrire le prochain Giga-Banger qui fera la une de la LH ? Rejoins-nous ! Ou envoie nous juste des articles ! (stp)
-
-### Club CHAT (Conservation de l'Histoire Associative de Télécom)
-Au CHAT, on s'occupe de consigner tout ce qui touche à la vie associative de télécom, et de fouiller les archives pour retracer son histoire. Alors si tu aimes mener des enquêtes, déterrer des trésors et que tu as l'information dans le sang, rejoins-nous !
-
+You like gossips, crappy stories, and disinformation? If you want to write the next Giga-Banger that will make the Headlines of the LH? Join us! Or just send us articles! (plz)
+### Club CHAT (Conservation de l’Histoire Associative de Télécom)
+At the CHAT, we take care of the recording of everything that touches at the associative life of telecom and of rummaging through the archives to retrace its history. So, if you like conducting investigations, uncovering treasures and if information is in your blood, join us!
 ### MAD (Make A Difference)
-Hello à toi jeune nainA ! MAD est l'asso engagée de Telecom, t'en a sûrement entendu parler pendant le WEI . Mais MAD c'est aussi un groupe d'étudiant.e.s passionné.e.s , engagé.e.s et ambitieu.ses.x . Si t'as une idée d'un projet lié à l'environnement, à la diversité ou encore à l'égalité femme-homme n'hésite pas de te rapprocher de nous , on te soutiendra et on concrétisera le projet ensemble 🤗. On se voit sûrement à la présentation de l'asso à Télécom pour te parler de ce qu'on a fait et de ce qu'on compte faire prochainement, à bientôt 🌟
+Hello to you, young nainA! MAD is the engaged association of Telecom, you must already have heard of it during the WEI. But MAD is also a group of passionate, engaged and ambitious students. If you have any project idea linked to the environment, diversity or even woman-man equality don’t hesitate to get in touch with us, we will support you and realize it together 🤗. We will surely meet again during the presentation of the associations at Télécom to speak about what we have done and what we plan to do soon, see you! 🌟

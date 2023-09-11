@@ -1,20 +1,15 @@
 ---
-title: "Journal d'un NainA"
+title: "WEI 2023 - Diary of a NainA (1A)"
 pubDate: 2023-09-04
 ---
 
-Samedi 26 :
+#### Saturday 26th
 
-Cela fait maintenant 5h que je suis dans les transports, ou peut-être 23h, je ne suis plus sûr. L'air se fait rare dans ce wagon de TER et les places assises ont été shotgun par certains élus, mais je tiens. Après tout le RER B pendant les oraux était pire.
-On est arrivé au camping, je suis au bâtiment 1, il est le plus éloigné du point de rassemblement, j'imagine que ce sera le plus calme la nuit. (wink)
-Il est 3h30, je vais maintenant me coucher. Mon déguisement était honteux, mais j'ai quand même récité une quinzaine de fois mon monologue, il faut maintenant que je trouve quoi faire avec ma perruque. Une contre soirée s'est développé au fond avec des mots fléchés, et c’était sûrement la meilleure chose que j'ai pu observer de ma vie.
+It has been 5 hours since I've been on the transport, or even 23 hours, I’m not sure. The air in the TER is thin, and the seats are all shotgunned by the lucky ones, but I’m not one of them, I’m standing. After all, I’ve seen worse with RER B when I was passing my oral tests (for concours). We arrived at the camping site, and I am in building 1, which is the farthest one from the assembly point, and I imagine that this is gonna be the calmest place at night. (wink) It’s now 3.30a.m., and I’m going to bed. My disguise was in disgrace, but I still recited my monologue about 15 times. Now I have to know how to deal with my wig. A counterparty developed at the back with crossword puzzles, and it was probably the best thing I've ever observed in my life.
 
-Dimanche 27 :
+#### Sunday 27th
+I woke up at 9.30 a.m. this morning, and the night was good, more or less good. There was plenty of coffee for breakfast but I don’t think that this is gonna do anything to me considering my level of tiredness (wink). Then was the presentation of student clubs. However I started to think that we were lied to, and also that they don’t teach English in school. Now I’m eating, and the food is amazing. 
 
-Je me suis levé à 9h30 ce matin, et la nuit a été bonne plutôt bonne. Il y avait pas mal de café pour le petit déjeuné, mais je ne pense pas qu'il servira vu mon état de fatigue (wink). Ensuite on a eu le droit à une présentation des assos, c'était intéressant, mais je commence à penser que l'on m'a mentis et que l'anglais n'est pas enseigné. Là je suis en train de manger, la bouffe est incroyable.
+In the afternoon, we had an Olympics, and our team was the best in all standards, but our opponents were obviously cheating. I have to create the Téléreferee club for that. And I lost my voice during Babyfoot, but it worthed it, after all, it was as much about soccer as it was about capoeira/greco-roman wrestling (I never thought to connect two such different activities into such a simple game).
 
-Pour l'aprèm on a eu le droit à des Olympiades, notre équipe a été la meilleure en toute objectivité, mais la triche était évidente chez les adversaires. Il va falloir que je monte l'asso Télé-arbitre. Et j'ai perdu ma voix pour le Babyfoot mais ça valait la peine, après tout c'était autant du foot que de la capoeira / lutte gréco-romaine (j'aurai jamais pensé relier deux activités si différentes avec en un jeu si simple).
-
-La soirée a encore été énorme, et ils ont même invité JDG, je pensais pas que le forum avait autant de budget.  Après quelques verres, je me suis mis à le voir en plusieurs fois, et pas au même endroit, et avec des voix différentes. Les ravages de l'alcool j'imagine. Je m'attendais à voir JM Bruitage à la sono et Canardman à la secu, mais j'ai dû les rater. En parlant de verre, il faut dire que les pintes de cocktails sont efficaces, bonnes (même si le goût perd de l'importance avec le temps) et en plus le staff est sympa, sauf _______.. Heureusement les verres d'eau sont tout autant efficaces, et les toilettes sont devenus mes amis.  J'ai aussi pu croiser le Scooby Gang, ils sont sûrement là pour résoudre le mystère des portes dégondés. Mais je n'ai pas eu le temps de leur demander de s’attarder sur le mystère de mon verre qui se vide petit à petit sans que je m'en rende compte. Encore un coup des Khajiits ça.
-
-
+The party was again huge, and they even invited JDG, I didn't think the Forum had that much budget. After a few drinks, I started to see him several times, and not in the same place, and in different voices. The ravages of alcohol, I guess. I was expecting to see JM Bruitage at the sound system and Canardman at the security, but I must have missed them. Speaking of drinks, I must say that the pints of cocktails are efficient, good (even if the taste loses its importance with time) and the staff is nice, except _______… Fortunately, glasses of water are just as effective, and toilets have become my friends. I also came across the Scooby Gang, who are surely here to solve the mystery of the unhinged doors. But I didn't have time to ask them to dwell on the mystery of my glass, which is slowly being emptied without me noticing. Another Khajiit trick.

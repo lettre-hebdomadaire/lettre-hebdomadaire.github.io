@@ -1,42 +1,32 @@
 ---
-title: "Le coin coin"
+title: "The coincoin"
 ---
 
-Vous êtes du genre à appeler votre partenaire boubou, bébou, bibou, chouchou, bb ? Vous ne comprenez pas pourquoi quand on gagne un jeu d'alcool, on ne boit pas ?
-Ou encore, vous avez une descente à faire pâlir les chutes du Niagara ? A la LH, nous avons trouvé LE sport faire pour vous : Le coin-coin.
+Are you of the kind that calls their partner “boubou”,” bibou”,” chouchou”, “bb”? (French equivalents of “babe”, “cutie pie”, “cutie cutes” …)\ Are you confused to hear that winning at a drinking game means you don’t drink? Or can you drink alcohol so fast that even the Niagara Falls grow dim? At the LH we have found THE sport made for you: The coin-coin.
 
-Le coin-coin, ou koin-koin, ou le jeu des quatres coins est un sport collectif. Pour faire une partie de coin-coin, vous aurez besoin :
-- d'une bière par personne
-- d'un gobelet ou d'une bouteille
-- d'une balle de ping-pong
-- d'une table (joliment décorée)
-- de vos frères et soeurs d'armes
+The “coin-coin”, or “koin-koin”, or even “le jeu des quatres coins” (game of the four corners) is a team sport. For a game of coin-coin, you’ll need:
+- a beer per person
+- a cup or a bottle
+- a ping pong table
+- a table (nicely decorated)
+- your brothers and sisters in arms
 
-Disposez vos boissons d'une part et d'autre de la table, placez votre gobelet, retourné, au centre de la table.
+Arrange your drinks on both side of the table, place the cup/bottle upside down at the center of the table.
 
-Tour à tour, essayez de toucher les consommations de vos adversaires en visant avec la balle de ping-pong. Si vous réussissez, vous pouvez boire vos bières.
-La balle fait en général un remarquable ricochet. Buvez jusqu'au moment où vos adversaires déposent sur le gobelet central la balle de ping-pong.
+One after the other, try to touch the drinks of your opponents by aiming with the ping pong ball. If you succeed, you can drink your beers. The ball usually does an outstanding ricochet. Drink ‘til the moment your opponents deposit the ping pong ball on the central cup/bottle.
 
-Votre but est alors de finir vos bières avant vos adversaires !
+Thus, your goal is to finish your beers before your opponents!
 
+The coin-coin plays in two vs two or also three vs three. In fact, as long as there’s room left on the table, you can add more!
 
-Le coin-coin se joue en deux contre deux, en trois contre trois également. En fait, tant qu'il y a de la place sur la table, vous pouvez y aller.
+Being a drinking game, beware while playing coin-coin, don’t go overboard! Don’t forget that the heads of the bar are more or less the world bosses of coin-coin, so watch out if you defy them.
 
+I tried to lead a real investigation on the origins of the coin-coin. As you can imagine, it’s difficult to find the genius behind the concept.
 
-Le coin-coin étant un jeu d'alcool, faites attention à vous, ne dépassez pas des limites dangereuses ! 
-N'oubliez pas que les chefs de bar sont plus ou moins des world boss du coin-coin, alors gare à vous en les défiant.
+I followed multiple leads. First searching with the name we all know “coin-coin”. Besides an article from Topito (a french blog well-known for being unserious - check it: it’s good) and a failed Ulule campaign launched by inhabitants of Grenoble: nothing really interesting – except another name of the game “les quatres coins”. The “Four Corners” is a game more or less identical played around the globe. It’s sometimes called the “Four Bangers” and even “Beer Ball”.
 
-J'ai essayé de mener une véritable investigation sur les origines du coin-coin. Vous vous en doutez, on arrive difficilement à identifier le génie derrière.
+This investigation was the occasion to discover the famous ABBA, the American Beer Ball federAtion. They even have a Facebook page (not active anymore). Truthfully you won’t be thrilled about it, that’s for sure. Four or five fellows in a garden around a table with beers. For the average telecommian, that’s just a regular reunion of the bar in the patio.
 
-J'ai suivi plusieurs pistes. D'abord en cherchant par le nom qu'on connaît tous "coin-coin".
-Outre un article Topito et une campagne Ulule ratée lancée par des grenoblois, rien de bien intéressant excepté un autre nom du jeu "les quatre coins".
-Le Four Corners est un jeu plus ou moins identique à l'internationnal. Il est parfois appelé le "Four Banger" et même le Beer Ball.
+In the end, my search lead me to what looks like the first ever description of the game of “coin-coin” on the internet: the “Dodge Beer” **https://www.brewthis.com/drinking-games/dodge-beer.html**
 
-Cette enquête, c'était l'occasion de découvrir la fameuse ABBA, la fédération américaine de Beer Ball. Ils ont même une page Facebook (qui n'est plus active).
-Alors, ça vend pas du rêve, c'est certain. Quatre, cinq pélos qui sont dans un jardin autour d'une table avec des bières. Le telecommien moyen y voit une réunion normale du bar dans le patio.
-
-Et finalement, mes recherches m'ont mené à ce qui ressemble à la première description sur internet du jeu de coin-coin : le Dodge Beer.
-https://www.brewthis.com/drinking-games/dodge-beer.html
-
-Comme l'indique le site, c'est un certain Mark qui a partagé ce jeu. Alors, on peut lui reprocher ce nom tout à fait éclaté mais force est de constater qu'il est ce qui se rapproche le plus d'un créateur de coin-coin aux yeux d'internet.
-Bravo Mark, et merci pour tout ce que tu as fait.
+As the website indicates, some guy named Mark shared the game. Well, we can certainly reproach him this completely lousy name, but it is certain that he is the closest you can get to the creator of the game in the eyes of internet. Congratulations Mark, and thanks for everything you’ve done.

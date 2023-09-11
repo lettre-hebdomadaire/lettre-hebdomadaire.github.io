@@ -2,7 +2,7 @@
 title: "Le coin coin"
 ---
 
-Vous êtes du genre à appeler votre partenaire boubou, bébou, bibou, chouchou, bb ? Vous ne comprenez pas pourquoi quand on gagne un jeu d'alcool, on ne boit pas ?
+Vous êtes du genre à appeler votre partenaire boubou, bébou, bibou, chouchou, bb ? Vous ne comprenez pas pourquoi quand on gagne un jeu d'alcool, on ne boit pas ?\
 Ou encore, vous avez une descente à faire pâlir les chutes du Niagara ? A la LH, nous avons trouvé LE sport faire pour vous : Le coin-coin.
 
 Le coin-coin, ou koin-koin, ou le jeu des quatres coins est un sport collectif. Pour faire une partie de coin-coin, vous aurez besoin :

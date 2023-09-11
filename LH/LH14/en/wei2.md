@@ -3,6 +3,8 @@ title: "Une rentrée pas comme les autres"
 pubDate: 2023-09-03
 author: "Daniel Hua"
 ---
+*TBT - To be Translated*
+
 « Shotgun », « NainA », « mabite » ou encore « coin-coin ». Être ingénieur, ce n’est pas qu’une formation ; c’est tout un langage.
 
 Voilà ce que j’ai découvert, comme les 206 autres futurs étudiants à Télécom Paris lors de notre Week-End d’Intégration (WEI) qui s’est passé à la ‘Ville de St Denis’, camping au bord de l’océan à Saint-Hilaire-de-Riez. Pendant cinq jours, le Bureau Des Elèves (BDE) ainsi que d’autres associations de Télécom Paris nous ont soumis des activités toutes aussi enrichissantes les unes que les autres pour nous aider à rencontrer nos futurs camarades, comprendre le fonctionnement des associations (sauf les campagnes Forum, personne n’a compris ce que c’était ça) et souder ce qui, je l’espère, deviendra des amitiés fortes.

@@ -5,7 +5,7 @@ pubDate: 2023-08-28
 
 ## Oyez oyez chers NainAs !
 Vous arrivez à télécom, et vous ne savez pas quoi faire de votre vie ? C'est que vous n'avez pas entendu parler de la vie associative de télécom ! (Comment ça vous n'êtes pas allés à la présentation des assos au WEI ??)\
-Les assos et clubs de télécom seront un aspect très important de votre vie de tous les jours, et deviendront bientôt comme votre deuxième famille, alors n'hésitez pas à vous renseigner et à aller visiter un max d'assos ! C'est gratuit (sauf rezel attention) et les gens seront ravis de vous parler de leurs assos !
+Les assos et clubs de télécom seront un aspect très important de votre vie de tous les jours, et deviendront bientôt comme votre deuxième famille, alors n'hésitez pas à vous renseigner et à aller visiter un max d'assos ! C'est gratuit (sauf rezel attention) et les gens seront ravis de vous parler de leurs assos !\
 En tout cas, voici un petit mot de bienvenue de la part de toutes vos assos préférées !
 
 ### Forum ASTER
