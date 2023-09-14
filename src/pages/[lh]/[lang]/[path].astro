@@ -24,7 +24,7 @@ export async function getStaticPaths() {
                             title: goodArticle?.frontmatter?.title,
                             subtitle: goodArticle?.frontmatter?.subtitle,
                             author: goodArticle?.frontmatter?.author,
-                            coverimage: imagePath && `/LH/${lhName}/${oneLang}/${imagePath}`,
+                            coverimage: imagePath && `/${lhName}/${oneLang}/${imagePath}`,
                             pubDate: goodArticle?.frontmatter?.pubDate
                         },
                     });

@@ -9,7 +9,7 @@ export async function getStaticPaths() {
     for (const lhName of listLhs) {
         const listLang = fs.readdirSync(`LH/${lhName}`);
         for (const oneLang of listLang) {
-            const memeFolderPath = `LH/${lhName}/${oneLang}/memes`;
+            const memeFolderPath = `public/${lhName}/${oneLang}/memes`;
             const memePageExists = fs.existsSync(memeFolderPath);
             if(memePageExists) {
                 const memeImageFiles = fs.readdirSync(memeFolderPath);
@@ -35,7 +35,7 @@ const { images } = Astro.props;
 
     {
     images.map((path) => (
-        <img src={`/LH/${lh}/${lang}/memes/${path}`} style="width: 90%; height: auto;" />
+        <img src={`/public/${lh}/${lang}/memes/${path}`} style="width: 90%; height: auto;" />
         <br>
         <br>
     ))

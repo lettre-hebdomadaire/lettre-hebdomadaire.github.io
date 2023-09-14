@@ -20,7 +20,7 @@ export async function getStaticPaths() {
                 order: article.frontmatter?.order | 0
             }));
             
-            const memeFolderPath = `LH/${lhName}/${oneLang}/memes`;
+            const memeFolderPath = `public/${lhName}/${oneLang}/memes`;
             const memePageExists = fs.existsSync(memeFolderPath);
 
             if(memePageExists) {
