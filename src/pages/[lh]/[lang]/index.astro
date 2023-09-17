@@ -23,10 +23,12 @@ export async function getStaticPaths() {
             const memeFolderPath = `public/${lhName}/${oneLang}/memes`;
             const memePageExists = fs.existsSync(memeFolderPath);
 
+            const memesTitle = oneLang === "fr" ? "Les memes de la semaine" : "The memes of the week";
+
             if(memePageExists) {
                 filteredLhs.push({
                     name: "memes",
-                    title: "Les memes de la semaine",
+                    title: memesTitle,
                     linktitle: null,
                     draft: false,
                     order: 100

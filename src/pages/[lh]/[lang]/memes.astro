@@ -27,11 +27,12 @@ export async function getStaticPaths() {
 
 const { lh, lang } = Astro.params;
 const { images } = Astro.props;
+const memesTitle = lang === "fr" ? "Memes de la semaine" : "Memes of the week";
 ---
 
-<LH_article lang={lang} title="Memes de la semaine">
+<LH_article lang={lang} title={memesTitle}>
 
-    <h1> Les mèmes de la semaine</h1>
+    <center><h1>{memesTitle}</h1></center>
 
     {
     images.map((path) => (

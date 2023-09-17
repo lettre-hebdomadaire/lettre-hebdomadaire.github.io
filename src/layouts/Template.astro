@@ -8,7 +8,6 @@ import "../styles/style.css";
 
 const { title, langHeader, lang, isArticle, isIndex } = Astro.props;
 const currentPath = Astro.url.pathname;
-console.log(currentPath);
 const hrefLangFr = lang === "fr" ? currentPath : currentPath === "/en" ? "/" : currentPath.replace("/en/", "/fr/");
 const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : currentPath.replace("/fr/", "/en/");   
 ---

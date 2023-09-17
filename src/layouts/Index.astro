@@ -4,6 +4,8 @@ import Logo from "../images/Logo_LH2.png";
 
 const regex = /.*\/LH\/LH(.*?)\/.*/;
 const lhs = await Astro.glob("/LH/**/fr/index.md*");
+const { title, lang='fr' } = Astro.props;
+console.log(lang);
 const goodLhs = lhs
     .sort((a, b) => {
         
@@ -13,15 +15,14 @@ const goodLhs = lhs
     })
     .map((oneLh) => {
         const title = oneLh.frontmatter?.pubDate
-            ? new Date(oneLh.frontmatter.pubDate).toLocaleDateString("fr-FR", {
+            ? new Date(oneLh.frontmatter.pubDate).toLocaleDateString(lang==='fr'?"fr-FR":"en-EN", {
                   month: "long",
                   day: "numeric",
               })
             : "";
-        return { title: `Parution du ${title}`, link: `LH${oneLh.file.replace(regex, "$1")}` };
+        return { title: lang==='fr'?`Parution du ${title}`:`${title}'s issue` , link: `LH${oneLh.file.replace(regex, "$1")}` };
     });
 
-const { title, lang = "fr" } = Astro.props;
 ---
 
 <Template langHeader={true} lang={lang} isIndex={true}>

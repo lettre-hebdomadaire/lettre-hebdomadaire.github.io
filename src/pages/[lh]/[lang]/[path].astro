@@ -48,7 +48,7 @@ const pageTitle = `${title || ""} - ${lh}`;
     <h1>{title}</h1>
     <h2>{subtitle}</h2>
     <p style="font-size: smaller;">
-        <i> {author && <>Par {author} </>} {pubDate && <>le {new Date(pubDate).toLocaleDateString(lang == "fr" ? "fr-FR" : "en-EN", {
+        <i> {author && <>Par {author} </>} {pubDate && <>{lang==='fr'?'Le ':'On '} {new Date(pubDate).toLocaleDateString(lang == "fr" ? "fr-FR" : "en-EN", {
             year: 'numeric',
             month: 'long',
             day: 'numeric'
