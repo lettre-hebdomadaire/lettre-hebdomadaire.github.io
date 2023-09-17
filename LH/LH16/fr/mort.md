@@ -1,5 +1,6 @@
 ---
 title: "La mort du miroir d'eau"
+coverimage: "./miroir.jpg"
 ---
 Ceci est un éloge funéraire à la mémoire du miroir d'eau. Car vous, nainsA, vous ne connaîtrez jamais ce monument de la vie télécommienne, et la terreur qui l'accompagnait.
 
