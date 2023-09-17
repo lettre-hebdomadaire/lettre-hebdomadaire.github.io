@@ -4,5 +4,11 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
     integrations: [mdx()],
-    site: 'https://lh.rezel.net'
+    site: 'https://lh.rezel.net',
+    experimental: {
+        redirects: true,
+    },
+    redirects: {
+        '/fr/': '/',
+    }
 });
