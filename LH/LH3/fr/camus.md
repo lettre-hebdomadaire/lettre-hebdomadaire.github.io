@@ -1,7 +1,7 @@
 ---
 title: "L'étranger"
 pubDate: 2023-04-15
-coverimage: "pablojcdf.jpg"
+coverimage: "./pablojcdf.jpg"
 ---
 
 
