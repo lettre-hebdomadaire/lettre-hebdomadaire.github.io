@@ -1,8 +1,6 @@
 ---
 title: "Ask Dr Strangelove"
 pubDate: 2023-04-29
-description: ""
-author: "Anonyme"
 ---
 
 Nouvelle rubrique, posez une question et Dr Strangelove vous répondra ! Que ce soit sur l'amour, la richesse ou les tenants et aboutissants de la politique Hongroise, demandez au Dr. Strangelove, il a réponse à tout !
