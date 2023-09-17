@@ -1,5 +1,5 @@
 ---
-pubDate: 2023-18-09
+pubDate: 2023-09-18
 ---
 
 Alors voilà, nous y revoilà : la campagne Forum. Première campagne de Telecom, chers NainAs vous ne savez pas encore vraiment ce qui vous attend, mais vos ainés, eux, savent et comptent bien profiter de vos efforts.
