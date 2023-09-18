@@ -11,5 +11,7 @@ jobs:
     steps:
     - name: Deploy website
       run: |
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
         # SSH into your VM and pull the latest changes
         ssh root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build"
