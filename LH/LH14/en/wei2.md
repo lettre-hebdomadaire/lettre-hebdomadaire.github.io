@@ -1,24 +1,22 @@
 ---
-title: "Une rentrée pas comme les autres"
+title: "A back-to-school unlike any other"
 pubDate: 2023-09-03
 author: "Daniel Hua"
 ---
-*TBT - To be Translated*
+"Shotgun," "NainA," "mabite," or even "coin-coin." Being an engineer is not just a formation; it's a whole language.
 
-« Shotgun », « NainA », « mabite » ou encore « coin-coin ». Être ingénieur, ce n’est pas qu’une formation ; c’est tout un langage.
+That's what I discovered, along with the other 206 future students at Télécom Paris during our Integration Weekend (WEI) held at 'Ville de St Denis,' a campsite by the ocean in Saint-Hilaire-de-Riez. For five days, the Bureau Des Elèves (BDE) and other associations from Télécom Paris subjected us to activities as enriching as they were varied, helping us meet our future comrades, understand how the clubs work (except for the Forum campaigns; nobody understood that part), and forge what I hope will become strong friendships.
 
-Voilà ce que j’ai découvert, comme les 206 autres futurs étudiants à Télécom Paris lors de notre Week-End d’Intégration (WEI) qui s’est passé à la ‘Ville de St Denis’, camping au bord de l’océan à Saint-Hilaire-de-Riez. Pendant cinq jours, le Bureau Des Elèves (BDE) ainsi que d’autres associations de Télécom Paris nous ont soumis des activités toutes aussi enrichissantes les unes que les autres pour nous aider à rencontrer nos futurs camarades, comprendre le fonctionnement des associations (sauf les campagnes Forum, personne n’a compris ce que c’était ça) et souder ce qui, je l’espère, deviendra des amitiés fortes.
+During the WEI, various associations organized activities for all tastes, including jam sessions by La Scène, DJ baptisms by TSM (Télécom Sound&Magic), and photography lessons given by Comète members. The BDE Olympics, as well as those of the Bureau Des Sports (BDS), brought us together in groups to determine the best teams. And, of course, we mustn't forget the surprise activity: Bungee jumping! An exhilarating activity for the bravest among us, led by a team of professionals with jokes from the past and dubious looks (for more details, ask Vivien).
 
-Pendant le WEI, les différentes associations ont organisé des activités pour tous les goûts avec des jam sessions de La Scène, des baptêmes de DJ de TSM (Télécom Sound&Magic) et des cours de photographie donnés par les membres de Comète. Les Olympiades du BDE, mais aussi celles du Bureau Des Sports (BDS), nous ont rassemblés en groupes pour déterminer quelles étaient les meilleures équipes. Et bien sûr, il ne faut pas oublier l’activité surprise : Le saut à l’élastique ! Une activité exaltante pour les plus courageux d’entre nous, animée par une équipe de professionnels aux blagues passées et aux regards douteux (pour plus de précision, demander à Vivien).
+The WEI was also an opportunity to discover new cultures by interacting with the numerous students from China, Brazil, Colombia, Germany, and so on... All these students spoke French very well and had a thirst for learning the French language and culture. I highly recommend all French students do the same and explore different cultures with the Bureau Des Internationaux (BDI).
 
-Le WEI, c’était aussi l’occasion de découvrir des nouvelles cultures en échangeant avec les nombreux élèves qui venaient de Chine, du Brésil, de Colombie, d’Allemagne et j’en passe… Tous ces étudiants parlaient très bien le français et avaient une soif d’apprendre la langue et la culture française. Je recommande vivement à tous les étudiants français de faire de même et de découvrir des cultures différentes avec le Bureau Des Internationaux (BDI).
+And how can we talk about the WEI without mentioning the parties! With music both outdoors and indoors, there was something for everyone. And the 2A students, having thought of everything, even brought board games from the Ludo to satisfy those of us who were less into partying. In short, it's enough to say that the memOraBle party with alcohol and tarot was a total success. The only thing that was really missing was the recommended 8 hours of sleep! Cut short by late-night parties until 4 in the morning and disrupted by fire alarms and Bar'itech wake-ups, our sleep was far from meeting the health ministry's recommendations.
 
-Et comment parler du WEI sans mentionner les soirées ! Avec de la musique en extérieur et en intérieur, il y en avait pour tout le monde. Et les 2A, ayant pensé à tout, ont même apporté des jeux de sociétés de la Ludo pour satisfaire les moins fêtards d’entre nous. Brefs, suffit de dire que l’open bar d’alcool et/ou de tarot a connu un succès total. La seule chose qui manquait vraiment, c’était les 8h de sommeil recommandées ! Ecourté par les soirées jusqu’à 4h du matin et perturbé par les alarmes incendies et les réveils de Bar’itech, notre sommeil est loin d’avoir atteint les recommandations du ministère de la santé.
+To end on a high note (and ensure a well-pronounced "weiose"), some NainAs decided to stay up all night followed by a dip in the icy waters of the Atlantic Ocean at 7 in the morning on the last day. Being part of this group of fearless daredevils, I can tell you that some would do it every day if they could!
 
-Pour finir en beauté (et s’assurer une weiose bien prononcée), certains NainAs se sont mis en tête de faire une nuit blanche suivie d’un bain dans l’eau glacée de l’Atlantique à 7h du matin le dernier jour. Faisant parti de ce groupe de tarés intrépides, je peux vous dire que certains recommenceraient tous les jours s’ils le pouvaient !
+Finally, after a bus ride visited by Morpheus, everyone returned home to prepare for the upcoming semester, which unfortunately arrives too quickly...
 
-Enfin, après un retour en car visité par morphée, tout le monde est rentré chez soi pour préparer la rentrée qui arrive malheureusement trop vite…
-
-Le WEI c’est fini, mais l’année ne fait encore que commencer. Ainsi, ces cinq jours resteront gravés dans notre mémoire pour toute notre scolarité à Télécom Paris et bien plus longtemps encore.
+The WEI is over, but the year is just beginning. Thus, these five days will be etched in our memories throughout our time at Télécom Paris and well beyond.
 
 Daniel Hua

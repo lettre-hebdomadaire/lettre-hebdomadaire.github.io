@@ -1,5 +1,5 @@
 ---
-title: "Wei"
+title: "Mon expérience du WEI"
 ---
 
 Le Wei est fini, je le sais autant par mon incroyable sens de l’orientation que par notre chère weiose qui
