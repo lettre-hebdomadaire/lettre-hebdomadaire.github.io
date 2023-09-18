@@ -1,0 +1,15 @@
+name: Build and Deploy on distant VM
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deploy website
+      run: |
+        # SSH into your VM and pull the latest changes
+        ssh root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build"
