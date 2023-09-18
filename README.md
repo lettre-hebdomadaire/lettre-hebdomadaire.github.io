@@ -7,4 +7,4 @@ npm run build
 ```
 
 
-test for automatic building
+test for automatic building 2
