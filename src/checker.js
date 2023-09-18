@@ -10,7 +10,7 @@ export const checkLH = () => {
         const byLangs = {};
         for (const oneLang of langs) {
             if (
-                !fs.existsSync(`LH/${oneLh}/${oneLang}/index.md`) ||
+                !fs.existsSync(`LH/${oneLh}/${oneLang}/index.md`) &&
                 !fs.existsSync(`LH/${oneLh}/${oneLang}/index.mdx`)
             ) {
                 errors.push({ file: `LH/${oneLh}/${oneLang}/index.md`, message: "Not Found" });
