@@ -22,17 +22,17 @@ img {
 #ppal {
     padding: 10px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	#ppal {
         background-color: #ffffff;
         border: 1px solid #cccccc;
 		display: block;
 	}
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
 	#ppal {
         margin: auto;
-		width: 800px;
+		width: 1000px;
         background-color: #ffffff;
         border: 1px solid #cccccc;
 		display: block;
