@@ -107,6 +107,14 @@ A.menulink:hover {
 	text-align: center;
 }
 
+#content-menu {
+	float: right;
+	width: 177px;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
 #footer {
 	clear: both;
 	padding: 5px;

@@ -42,7 +42,16 @@ const goodLhs = lhs
             )}
         </div>
     </div>
-    
+
+    <div id="content-menu">
+        <h4>Rubriques</h4>
+        <div style="overflow-y:scroll; height:250px;">
+            {goodLhs.map((post) => 
+                <b><a class="menulink" href={`/${post.link}/${lang}/`}>{post.title}</a></b><br>
+            )}
+        </div>
+    </div>
+
     <slot />
     
 </Template>
