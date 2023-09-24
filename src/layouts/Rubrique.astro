@@ -1,0 +1,28 @@
+---
+import Template from "./Template.astro";
+
+const props = Astro.props;
+
+// Search for all articles with the tag "babar"
+const articles = await Astro.glob("/LH/**/fr/*.md*");
+const filteredArticles = articles.filter((article) => {
+    return article.frontmatter.tag === "babar";
+}).sort((a, b) => {
+    return a.frontmatter.title.localeCompare(b.frontmatter.title);
+})
+
+
+console.log(filteredArticles.map((article) => article));
+
+---
+
+<Template title={props.frontmatter.title} langHeader={false} isArticle={false}>
+    <h1> {props.frontmatter.title} </h1>
+    <em> Tag : {props.frontmatter.tag}</em>
+    <slot />
+    <div>
+        {filteredArticles.map((post) => 
+            <b><a class="menulink" href={post.url}>{post.frontmatter.title}</a></b><br>
+        )}
+    </div> 
+</Template>

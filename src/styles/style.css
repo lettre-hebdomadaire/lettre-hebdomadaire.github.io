@@ -58,7 +58,7 @@ a:hover {
 
 A.menulink {
 	display: block;
-	width: 150px;
+	padding-right: 5px;
 	text-align: right;
 	text-decoration: none;
 	font-family: Georgia, "Times New Roman", Times, serif;
