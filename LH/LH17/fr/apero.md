@@ -1,7 +1,7 @@
 ---
 title: "Critique apéronomique #2"
 ---
-
+*Critique de l'apéro des deux listes de la semaine dernière*
 ## Apéro Forum West : 
 
 Entrée : Le mélange de légumes est cohérent, en progrès par rapport au premier apéro, ça vaut 5/10 
