@@ -2,6 +2,7 @@
 title: "Baignade au clair de l’X"
 subtitle: "Compte rendu de la baignade d’un nainA"
 author: "Forum West Enthusiast"
+coverimage: "./lax.jpg"
 ---
 
 Minuit quarante, heure de tous les interdits. Je m’approche de l’eau trouble, pourtant si sereine, du lac. Le calme règne aux alentours, troublés seulement par les bruits ponctuels de la faune, apeurée par la présence d’un étranger en ces lieux. La route pour arriver ici, longue et inhospitalière, m’a bien fait comprendre l’interdit que je franchis. Retirant mon pantalon et mes chaussures recouverts des aiguilles de la flore locale, hostile au passage des listeux ; je pense à mon cours de MDI104 qui m’attends à 8h30 tapante le lendemain.
