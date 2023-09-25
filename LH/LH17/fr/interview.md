@@ -1,5 +1,6 @@
 ---
 title: "Interview du plus grand auteur de l'histoire"
+linktitle: "Interview auteur babar"
 ---
 ---
 Bonjour. Voici le compte-rendu d'une interview entre moi, fan n°1 de la fanfic babar-shrek **(incontestablement)**, et son (ses) auteurs. Attention! La lecture de cet article vous expose vous! lectrice ou lecteur, à un potentiel **divulgâchis**. Vous voilà prévenu.e...
