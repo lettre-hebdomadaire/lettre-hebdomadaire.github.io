@@ -1,5 +1,5 @@
 ---
-layout: "/src/layouts/LH_Lang.astro"
+layout: "/src/layouts/LH_lang.astro"
 title: "BDA"
 lang: "fr"
 ---
