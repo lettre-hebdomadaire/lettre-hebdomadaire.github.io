@@ -20,3 +20,4 @@ Mettez dans le nom du fichier comment vous voulez être crédités. Si vous avez
 - Pas de contenu offensant, haineux ou discriminant, soyez bienveillants
 - Bien entendu, envoyez vos propres créations, pas d'images trouvées sur internet ou générées par IA
 - Pas de contenu NSFW (not safe for work), c'est à dire pas de nudité, pas de violence, pas de sang, pas de drogue, pas de contenu sexuel, pas de contenu choquant
+- Si vous dessinez quelqu'un en particulier, demandez lui son avis pour poster (sauf célébrité tout ça tout ça).
