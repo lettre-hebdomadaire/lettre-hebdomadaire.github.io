@@ -22,7 +22,9 @@ Bagel ca rentre pas dans ma gigantesque bouche alors que vraiment je suis une gr
 
 Limonade pas mal et c'est fait maison. +1.
 
-Enormes radins sur le crumble aux fruits rouges, ca vaut pas un euro. Vous êtes la liste cachée de Télérat ? C'est un respo différent qui sert celui aux pommes ? Franchement très bons. Quand on sent la chaleur à travers l'assiette, on sait que ca va être un bon moment. 10/10. -1 pour la radinerie. Fallait pas laisser le trésorier faire les parts... +1 parce qu'on en a repris.
+Enormes radins sur le crumble aux fruits rouges, ca vaut pas un euro. Vous êtes la liste cachée de Télérat ? C'est un respo différent qui sert celui aux pommes ? Franchement très bons. Quand on sent la chaleur à travers l'assiette, on sait que ca va être un bon moment. 10/10.
+
+-1 pour la radinerie. Fallait pas laisser le trésorier faire les parts... +1 parce qu'on en a repris.
 
 Tenture : pas mal, vraiment y a un effort de composition. Mais c'est quand même moins cool. 9/10. 
 
@@ -35,6 +37,6 @@ Score : 7,75/10 pour Forum Club. 7,5/10 pour Forum West. Super premier apero. J'
 
 
 
-Erratum: après avoir écrit tout cet article, j'ai repris du crumble et j'ai failli m'étouffer sur un trognon. 
--1.
+Erratum: après avoir écrit tout cet article, j'ai repris du crumble et j'ai failli m'étouffer sur un trognon.\
+-1.\
 Égalité.
