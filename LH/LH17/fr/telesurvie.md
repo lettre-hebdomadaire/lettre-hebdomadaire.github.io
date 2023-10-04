@@ -1,6 +1,6 @@
 ---
 pubDate: 2023-09-25
-title: "Lancement de Télécraft"
+title: "Lancement de Télésurvie"
 author: "Stroumpf"
 coverimage: "./cover_mc.png"
 ---
