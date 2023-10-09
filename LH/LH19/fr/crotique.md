@@ -19,7 +19,7 @@ Le scénario n'est franchement pas *intéressant*. Et alors ? Pourquoi faire une
 
 ### Des images à faire pleurer Zack Snyder
 Vous l'aurez compris. Rajamouli, il aime ce qui est épique. Toute sa réalisation est un entonnoir qui mène à une extase de puissance. Ce qui est profondément touchant, c'est l'esthétique "kitsch" qui serait moquée par les productions américaines, l'impression d'en faire trop. Parfois, il y a des gros plans sur Baahubali, avec une musique puissante, un éclair en fond. C'est pas discret, c'est sûr. A bas la discrétion ! Ce dictat de la discrétion imposé par le cinéma américain est d'une tristesse absolue. Cette gêne de ne pas oser en faire trop est à bannir, regardez la puissance de cette scène. \
-https://youtu.be/2m1qiHxunfo?si=wZVvv9vjhv6CkE-K&t=31 \
+<iframe width="750" height="400" src="https://www.youtube.com/embed/2m1qiHxunfo?si=6sVtrhNUtd8Nam2u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> \
 Cette scène est hallucinante, la musique qui monte, les regards de tous les personnages pour appuyer la grandeur et cette acceptation de l'irrationalité pour juste faire un plan mythique !
 ### Mais où est-ce qu'il va chercher ses idées ?
 Le film ose tout et ne s'arrête pas à l'idée que *c'est débile en fait*. C'est une épopée ! Le héros peut tout faire avec de la volonté. Il nous met une claque alors qu'on est dans notre siège ou dans canapé. 
@@ -29,7 +29,7 @@ Le film ose tout et ne s'arrête pas à l'idée que *c'est débile en fait*. C'e
 
 Et ça permet juste au réalisateur de mettre les idées les plus farfelues qu'il peut avoir. Vous voulez envahir une forteresse ? Réfléchissez à un plan deux secondes et là **CUT** on voit l'exécution du plan du héros qui est *EPIQUE*.
 
-https://www.youtube.com/watch?v=sDte-axR9l8
+<iframe width="750" height="400" src="https://www.youtube.com/embed/sDte-axR9l8?si=ilBa31l2or-yWrJZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Conclusion
 N'hésitez pas à regarder ces deux films ! Entre amis de préférence pour vous soutenir dans les moments un peu creux avec des intrigues pas forcément intéressantes. L'année dernière, S.S. Rajamouli a également sorti le film *RRR* qui a eu un certain succès dans le monde. C'est une figure très importante du cinéma indien à l'internationnal alors je vous invite fortement à découvrir son travail !
