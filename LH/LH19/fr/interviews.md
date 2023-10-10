@@ -24,5 +24,5 @@ Donc fuck les rhinopharyngites.  \
 **Un misérable qui passait dans le couloir :** Moi j'ai pas pu être listeux parce que j'ai pas eu de logement avant le 30 septembre et du coup faire les défis, bon... Maintenant j'ai un logement, depuis le 30 septembre. Et c'est une coloc, mais une coloc au CROUS, donc c'est vraiment moins cher. Mais j'aurais bien aimé payer 700 balles en septembre histoire d'avoir un logement.
 
 **Vice prez perdant**, *qu'on tracos alors qu'il essayait de sortir pour rentrer chez lui* : \
-Moi j'ai kiffé la campagne, c'est technique en vrai. On a fait un gros démarrage en pente mais ça va. Apparemment ils nous ont écrasé avec deux fois plus. Je saurais pas décrire, une petite déception. C'est tôt pour dire si je tenterai une prochaine campagne. \[Maël lui souffle de dire qu'il est heureux pour l'autre liste.\] \[Marie se bat avec Gabriel au sujet du reveal : Clément Bourles est, apparemment, un bouffon. Un bouffon au bureau.\] \
+Moi j'ai kiffé la campagne, c'est technique en vrai. On a fait un gros démarrage en pente mais ça va. Apparemment ils nous ont écrasé avec deux fois plus. Je saurais pas décrire, une petite déception. C'est tôt pour dire si je tenterai une prochaine campagne.
 Un dernier mot : heeeeeu... je reviendrai.
