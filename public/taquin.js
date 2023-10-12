@@ -9,7 +9,7 @@ var locales = {
 
     help_message : "Il faut remettre l'image dans le bon ordre en déplaçant les cases.\nLa méthode générale est : remettre les cases dans l'ordre ligne par ligne pour les deux premières lignes, puis colonnes par colonnes pour les deux dernieres, tout cela dans l'ordre de lecture.\nSi vous n'y arrivez toujours pas, cherchez sur internet la flemme d'expliquer plus.",
 
-    img_source : "taquin.png"
+    img_source : "../taquin.png"
 };
 
 var ctx, can;
