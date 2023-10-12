@@ -1,6 +1,6 @@
 ---
 import fs from "fs";
-import LH_article from "../../../layouts/LH_lang.astro";
+import LH_lang from "../../../layouts/LH_lang.astro";
 
 export async function getStaticPaths() {
     const articles = await Astro.glob("/LH/**/*.(mdx|md)");
@@ -25,7 +25,8 @@ export async function getStaticPaths() {
                             subtitle: goodArticle?.frontmatter?.subtitle,
                             author: goodArticle?.frontmatter?.author,
                             coverimage: imagePath && `/${lhName}/${imagePath}`,
-                            pubDate: goodArticle?.frontmatter?.pubDate
+                            pubDate: goodArticle?.frontmatter?.pubDate,
+                            script: goodArticle?.frontmatter?.script
                         },
                     });
                 }
@@ -38,12 +39,12 @@ export async function getStaticPaths() {
 }
 
 const { lh, lang, path } = Astro.params;
-const { currentLh: Content, title, subtitle, coverimage, author, pubDate, memeImageFiles } = Astro.props;
+const { currentLh: Content, title, subtitle, coverimage, author, pubDate, script } = Astro.props;
 
 const pageTitle = `${title || ""} - ${lh}`;
 ---
 
-<LH_article lang={lang} title={pageTitle}>
+<LH_lang lang={lang} title={pageTitle} script={script}>
     {coverimage && <img src={coverimage} style="width:100%;" height="auto" />}
     <h1>{title}</h1>
     <h2>{subtitle}</h2>

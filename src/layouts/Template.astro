@@ -6,7 +6,7 @@ import en from "../images/en.png";
 import Logo from "../images/Logo_LH2.png";
 import "../styles/style.css";
 
-const { title, langHeader, lang, isArticle, isIndex } = Astro.props;
+const { title, langHeader, lang, isArticle, isIndex, script } = Astro.props;
 const currentPath = Astro.url.pathname;
 const hrefLangFr = lang === "fr" ? currentPath : currentPath === "/en" ? "/" : currentPath.replace("/en/", "/fr/");
 const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : currentPath.replace("/fr/", "/en/");   
@@ -22,6 +22,9 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
             name="description"
             content="La LH est un sorte de cryptide, une association qui, malgré les ides de mars qu'elle subit chaque année, finit toujours par ressortir de l'oubli pour un ou deux mois."
         />
+        { script && (
+            <script is:inline src={script} />
+        )}
     </head>
 
     <body>
