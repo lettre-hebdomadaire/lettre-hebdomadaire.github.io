@@ -19,7 +19,7 @@ jobs:
               env:
                   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
               run: |
-                  echo "$SSH_PRIVATE_KEY" > id_rsa
+                  echo -e "$SSH_PRIVATE_KEY" > id_rsa
                   chmod 600 id_rsa
                   # SSH into your VM and pull the latest changes
                   ssh root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build" -i id_rsa
