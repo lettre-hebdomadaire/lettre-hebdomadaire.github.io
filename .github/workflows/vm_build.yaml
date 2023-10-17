@@ -2,16 +2,18 @@ name: Build and Deploy on distant VM
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Deploy website
-      run: |
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        # SSH into your VM and pull the latest changes
-        ssh root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build"
+      - name: Deploy website
+        run: |
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          # SSH into your VM and pull the latest changes
+          ssh root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build"

@@ -1,10 +1,9 @@
 # Lettre hebdomadaire
 
+## Dev
+
+Just do
+
 ```sh
-npm install
 npm run dev
-npm run build
 ```
-
-
-test for automatic building 2
