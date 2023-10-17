@@ -13,8 +13,8 @@ import "../styles/style_taquin.css";
         <div class="letter l5">O</div>
         <div class="letter l6">!</div>
     </div>
-    <div>
-        <canvas id="canvas" class="base" width="500" height="500"> </canvas>
+    <div class="jeu_taquin">
+        <canvas id="canvas" width="500" height="500"></canvas>
         <div id="menu_taquin">
             <div id="moves">Nombre de coups : 0</div><br />
             <button id="newGame" class="menu_button">Nouvelle partie</button>
@@ -93,7 +93,9 @@ import "../styles/style_taquin.css";
         document.getElementById("help-2").onclick = help_2;
         can = document.getElementById("canvas");
         ctx = can.getContext("2d");
-
+        const coords = can.getBoundingClientRect();
+        can.width = coords.width;
+        can.height = coords.height;
         can.onmousedown = click;
 
         shuffle();

@@ -1,11 +1,27 @@
-.base {
+
+#canvas.anim {
+    transform: rotate3d(0, 1, 0.5, 720deg);
+}
+
+.jeu_taquin{
+    text-align: center;
+}
+
+#canvas{
+    width: 75%;
+    height: auto;
     transform: rotate3d(0, 1, 0.5, 0deg);
     transition: all 1s;
     margin: 0;
     padding: 0;
+    aspect-ratio: 1/1;
 }
-.base.anim {
-    transform: rotate3d(0, 1, 0.5, 720deg);
+
+@media screen and (max-width: 800px) {
+	#canvas{
+        width: 100%;
+        height: auto;
+	}
 }
 
 .menu_button {
@@ -21,14 +37,14 @@
     background: #bfbfbf;
 }
 #menu_taquin {
-    width: 498px;
+    width: 100%;
     border: 1px solid #000;
     justify-content: center;
 }
 #taquin {
     margin: 0 auto;
-    padding: 20px;
-    width: 500px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #moves {
