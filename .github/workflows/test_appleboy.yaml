@@ -20,4 +20,4 @@ jobs:
         port: ${{ secrets.PORT }}
         command_timeout: 30m
         script: | 
-          echo "Nice Job!!!"
+          cd /var/www/lettre-hebdomadaire.github.io/; git pull; npm run build
