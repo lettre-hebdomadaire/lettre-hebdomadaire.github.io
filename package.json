@@ -1,20 +1,20 @@
 {
-  "name": "@example/minimal",
-  "type": "module",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "^0.19.7",
-    "astro": "^2.7.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.3.1"
-  }
+    "name": "@example/minimal",
+    "type": "module",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "astro dev || (npm install && npm run dev)",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/mdx": "^0.19.7",
+        "astro": "^2.7.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.3.1"
+    }
 }

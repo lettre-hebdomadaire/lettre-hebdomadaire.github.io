@@ -9,6 +9,9 @@ export const checkLH = () => {
         const langs = fs.readdirSync(`LH/${oneLh}`);
         const byLangs = {};
         for (const oneLang of langs) {
+            if (oneLang.includes(".")) {
+                continue;
+            }
             if (
                 !fs.existsSync(`LH/${oneLh}/${oneLang}/index.md`) &&
                 !fs.existsSync(`LH/${oneLh}/${oneLang}/index.mdx`)

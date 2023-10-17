@@ -3,12 +3,12 @@ import fs from "fs";
 import LH_lang from "../../layouts/LH_lang.astro";
 
 export function getStaticPaths() {
-  const listLhs = fs.readdirSync("LH/");
-  const a = listLhs.map((e) => {
-    const listLangs = fs.readdirSync(`LH/${e}`);
-    return { params: { lh: e }, props: { langs: listLangs } };
-  });
-  return a;
+    const listLhs = fs.readdirSync("LH/");
+    const a = listLhs.map((e) => {
+        const listLangs = fs.readdirSync(`LH/${e}`);
+        return { params: { lh: e }, props: { langs: listLangs } };
+    });
+    return a;
 }
 
 const { lh } = Astro.params;
@@ -16,15 +16,18 @@ const { langs } = Astro.props;
 ---
 
 <LH_lang>
-  <p>{lh}</p>
-  {
-    langs.map((oneLang) => {
-      return (
-        <>
-          <a href={`./${oneLang}/`}>version {oneLang}</a>
-          <br />
-        </>
-      );
-    })
-  }
+    <p>{lh}</p>
+    {
+        langs.map((oneLang) => {
+            if (oneLang.includes(".")) {
+                return <></>;
+            }
+            return (
+                <>
+                    <a href={`./${oneLang}/`}>version {oneLang}</a>
+                    <br />
+                </>
+            );
+        })
+    }
 </LH_lang>
