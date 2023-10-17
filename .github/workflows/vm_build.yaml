@@ -11,13 +11,10 @@ jobs:
         runs-on: ubuntu-latest
         environment: production
         steps:
-            - name: Test secret
-              env:
-                  TEST_SECRET: ${{ secrets.TEST_SECRET }}
-              run: echo "$TEST_SECRET"
             - name: Deploy website
               env:
-                  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+                  SSH_PRIVATE_KEY: |
+                      ${{ secrets.SSH_PRIVATE_KEY }}
               run: |
                   echo -e "$SSH_PRIVATE_KEY" > id_rsa
                   chmod 600 id_rsa
