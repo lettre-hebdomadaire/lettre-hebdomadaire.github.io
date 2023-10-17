@@ -1,4 +1,4 @@
-name: Build and Deploy on distant VM
+name: Test with Appleboy's Action
 
 on:
     push:
