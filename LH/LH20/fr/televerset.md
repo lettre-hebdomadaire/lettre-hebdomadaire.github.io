@@ -34,51 +34,50 @@ Sans plus attendre, l'oeuvre:
 
 > Télécom Paris, Tel est ton pari
 
-Former, inventer, imaginer les
+Former, inventer, imaginer les \
 formes et moyens de tous ensemble communiquer
 
-Concevoir des systèmes centrés sur l'humain,
+Concevoir des systèmes centrés sur l'humain, \
 qu'on se voit tous les jours avec des rapports sains
 
-Impacter le monde, pour cela organise
+Impacter le monde, pour cela organise \
 un pacte avec les plus grandes entreprises
 
-Modeste ? Non: première école du numérique
+Modeste ? Non: première école du numérique \
 mot d'estime qui reflète une ambition unique
 
-Modèle du luxe, parrainée par chanel
+Modèle du luxe, parrainée par chanel \
 Mode et élégance, sont seulement optionnelles
 
+.
 
----
-
-Talent modeste, travailleur, passionné,
+Talent modeste, travailleur, passionné, \
 t'as l'ambition d'entrer dans cette école d'ingé
 
-Idéale pour gagner une masse d'oseille
+Idéale pour gagner une masse d'oseille \
 idée alléchante qui vient à tes oreilles
 
-Des formations à la pointe qui évoluent se
+Des formations à la pointe qui évoluent se \
 déforment, s'adaptent aux tendances, à l'actu
 
-Sélection à l'entrée, si tu franchis ses portes,
+Sélection à l'entrée, si tu franchis ses portes, \
 c'est l'action du travail qui aura fait en sorte
 
-labos minables, professeurs ignares
+labos minables, professeurs ignares \
 l'abominable mensonge d'un centralien fêtard
 
----
+.
 
-Ouverte d'esprit, multicolore arc en ciel
+Ouverte d'esprit, multicolore arc en ciel \
 ou verte aussi, MAD donne des ailes
 
-Verre inimitable de bière chez Babar
+Verre inimitable de bière chez Babar \
 Véritable famille affectueuse de buvards
 
-L'espoir apportée par l'asso de charité qui ne,
+L'espoir apportée par l'asso de charité qui ne, \
 Laisse poireauter ni les mendiants ni les malheureux
 
-Étude à Télécom, l'entreprise junior vous recrute
+Étude à Télécom, l'entreprise junior vous recrute \
 et tu dis qu'à l'école ils ne te donnent aucun but ?
 
 
