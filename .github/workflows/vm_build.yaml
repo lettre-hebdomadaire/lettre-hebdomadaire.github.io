@@ -1,4 +1,4 @@
-name: Build and Deploy on distant VM
+name: Build and Deploy on lh.rezel.net VM
 
 on:
     push:
@@ -20,6 +20,7 @@ jobs:
                   echo "$SSH_PRIVATE_KEY" > key
                   chmod 600 key
                   ssh-keyscan lh.rezel.net >> ~/.ssh/known_hosts
+                  ssh-keyscan lh-ssh.rezel.net >> ~/.ssh/known_hosts
             - name: SSH and deploy
               shell: bash
               run: ssh -i key root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build"
