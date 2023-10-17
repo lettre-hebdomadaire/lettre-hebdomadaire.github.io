@@ -16,8 +16,10 @@ jobs:
               env:
                   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
               run: |
+                  mkdir -p ~/.ssh/
                   echo "$SSH_PRIVATE_KEY" > key
                   chmod 600 key
+                  ssh-keyscan lh.rezel.net >> ~/.ssh/known_hosts
             - name: SSH and deploy
               shell: bash
               run: ssh -i key root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build"
