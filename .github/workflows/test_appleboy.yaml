@@ -1,0 +1,15 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+    - name: print out example job
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: lh-ssh.rezel.net
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        command_timeout: 30m
+        script: | 
+          echo "Nice Job!!!"
