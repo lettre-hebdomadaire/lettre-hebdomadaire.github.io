@@ -188,12 +188,11 @@ const { img = "../taquin.png" } = Astro.props;
 
     function click(e) {
         const rect = can.getBoundingClientRect();
-        var x = e.clientX - rect.left;
-        var y = e.clientY - rect.top;
+        var x = e.clientX - rect.left < 0 ? 0 : e.clientX - rect.left;
+        var y = e.clientY - rect.top < 0 ? 0 : e.clientY - rect.top;
         var w = can.width / game.size;
         var h = can.height / game.size;
-        const rand = Math.floor(y / h);
-        var i = rand < 0 ? 0 : rand;
+        var i = Math.floor(y / h);
         var j = Math.floor(x / w);
 
         if (i == game.emptyCell.x || j == game.emptyCell.y) {
