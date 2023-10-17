@@ -9,6 +9,9 @@ export async function getStaticPaths() {
     for (const lhName of listLhs) {
         const listLang = fs.readdirSync(`LH/${lhName}`);
         for (const oneLang of listLang) {
+            if (oneLang.includes(".")) {
+                continue;
+            }
             const memeFolderPath = `public/${lhName}/${oneLang}/memes`;
             const memePageExists = fs.existsSync(memeFolderPath);
             if(memePageExists) {
