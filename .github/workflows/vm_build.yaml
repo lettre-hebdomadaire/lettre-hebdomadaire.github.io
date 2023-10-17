@@ -1,21 +1,25 @@
 name: Build and Deploy on distant VM
 
 on:
-  push:
-    branches: ["main"]
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+    push:
+        branches: ["main"]
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
-      - name: Deploy website
-        env: # Or as an environment variable
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        run: |
-          echo "$SSH_PRIVATE_KEY" > id_rsa
-          chmod 600 id_rsa
-          # SSH into your VM and pull the latest changes
-          ssh root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build" -i id_rsa
+    build:
+        runs-on: ubuntu-latest
+        environment: production
+        steps:
+            - name: Test secret
+              env:
+                  TEST_SECRET: ${{ secrets.TEST_SECRET }}
+              run: echo "$TEST_SECRET"
+            - name: Deploy website
+              env:
+                  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+              run: |
+                  echo "$SSH_PRIVATE_KEY" > id_rsa
+                  chmod 600 id_rsa
+                  # SSH into your VM and pull the latest changes
+                  ssh root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build" -i id_rsa
