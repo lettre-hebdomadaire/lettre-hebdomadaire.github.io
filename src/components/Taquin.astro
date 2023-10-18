@@ -26,7 +26,6 @@ import "../styles/style_taquin.css";
         </div>
     </div>
 </div>
-
 <script>
     var locales = {
         moves: "Nombre de coups : ",
@@ -34,7 +33,6 @@ import "../styles/style_taquin.css";
         help: "Je suis nul.le",
         unhelp: "Je me débrouille comme un.e grand.e",
         help_2: "Vraiment aidez moi je suis éclaté.e au sol",
-
         help_message:
             "Il faut remettre l'image dans le bon ordre en déplaçant les cases.\nLa méthode générale est : remettre les cases dans l'ordre ligne par ligne pour les deux premières lignes, puis colonnes par colonnes pour les deux dernieres, tout cela dans l'ordre de lecture.\nSi vous n'y arrivez toujours pas, cherchez sur internet la flemme d'expliquer plus.",
     };
@@ -71,23 +69,23 @@ import "../styles/style_taquin.css";
     ];
 
     var img = new Image();
-    img.src = document.getElementById("link").innerHTML;
 
     var hole_color = "black";
 
     var loaded = false;
 
-    img.onload = function () {
-        loaded = true;
-    };
-
-    window.onload = init;
+    window.addEventListener("load", init);
 
     var in_game = false;
     var show_grid = true;
     var show_help = false;
 
     function init() {
+        img.src = document.getElementById("link").innerHTML;
+        img.onload = function () {
+            loaded = true;
+            shuffle();
+        };
         document.getElementById("newGame").onclick = shuffle;
         document.getElementById("help").onclick = help;
         document.getElementById("help-2").onclick = help_2;
@@ -97,8 +95,6 @@ import "../styles/style_taquin.css";
         can.width = coords.width;
         can.height = coords.height;
         can.onmousedown = click;
-
-        shuffle();
     }
 
     var shuffle_num = 1000;

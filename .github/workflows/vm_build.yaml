@@ -9,7 +9,9 @@ on:
 jobs:
     build:
         runs-on: ubuntu-latest
-        environment: production
+        environment:
+            name: lh.rezel.net
+            url: https://lh.rezel.net
         steps:
             - name: Deploy website
               shell: bash
