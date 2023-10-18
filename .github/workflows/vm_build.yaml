@@ -25,4 +25,4 @@ jobs:
                   ssh-keyscan lh-ssh.rezel.net >> ~/.ssh/known_hosts
             - name: SSH and deploy
               shell: bash
-              run: ssh -i key root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm run build"
+              run: ssh -i key root@lh-ssh.rezel.net "cd /var/www/lettre-hebdomadaire.github.io/ && git pull && npm install && npm run build"

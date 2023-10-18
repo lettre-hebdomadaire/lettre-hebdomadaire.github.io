@@ -28,7 +28,12 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
         <div class="topnav">
             <div class="topnav-left">
                 <a class="img-link" href="/">
-                    <img class="img-link" style="max-height:100%; width:auto;" src={Logo} alt="Lettre Hebdomadaire" />
+                    <img
+                        class="img-link"
+                        style="max-height:100%; width:auto;"
+                        src={Logo.src}
+                        alt="Lettre Hebdomadaire"
+                    />
                 </a>
                 {
                     isArticle && (
@@ -53,10 +58,10 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
                     <div class="topnav-right">
                         <div id="lang">
                             <a href={hrefLangFr} class="langlink" title="Français">
-                                <img src={fr} alt="Français" class="langlink" />
+                                <img src={fr.src} alt="Français" class="langlink" />
                             </a>
                             <a href={hrefLangEn} class="langlink" title="English">
-                                <img src={en} alt="English" class="langlink" />
+                                <img src={en.src} alt="English" class="langlink" />
                             </a>
                         </div>
                     </div>
