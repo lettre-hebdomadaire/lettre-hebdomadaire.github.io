@@ -47,7 +47,7 @@ dé**crypt**ant éternellement sa syntaxe macabre
 
 ---
 
-Loi universelle régiss**ant** l'information
+Loi universelle régiss**ant** l'information  
 in**tro**duite par les physiciens qui voulaient expliquer  
 la **pi**zza qui tiédit lentement
 
@@ -59,7 +59,7 @@ Et jamais **la**ssé des élèves
 
 ---
 
-Vous les sentez en soirée,  
+Vous les **sen**tez en soirée,  
 Comète **râle** toujours après leur passage destructeur,  
 En deux mots: des galér**iens**  
 
@@ -67,22 +67,22 @@ En deux mots: des galér**iens**
 ---
 
 
-Goupe ancestr**al** d'étudiants télécommiens
-H**um**ains qui vous guident jusque dans l'entreprise
+Goupe ancestr**al** d'étudiants télécommiens  
+H**um**ains qui vous guident jusque dans l'entreprise  
 U**nis**, comme une seconde famille
 
 ---
 
 
 Projet techno mais aussi **art**istique  
-Votre mission: travailler **eff**icacement avec votre équipe
-Pourtant toujours aucun casier **act**uellement
+Votre mission: travailler **eff**icacement avec votre équipe  
+Pourtant toujours aucun casier **act**uellement  
 
 ---
 
 
-Chassis **rob**uste, mais impression ratée
-Cette carte arduino est vraiment **aut**iste
+Chassis **rob**uste, mais impression ratée  
+Cette carte arduino est vraiment **aut**iste  
 Complètement cramé, ce capteur acoust**ique**
 
 
@@ -91,14 +91,14 @@ Remarque: on a un chiasme entre le 2eme et le 3eme vers
 ---
 
 
-Encore **lu**cide ? Pas pour longtemps:
-Pas de ca**deau** contre les adversaires. Pourtant,
+Encore **lu**cide ? Pas pour longtemps:  
+Pas de ca**deau** contre les adversaires. Pourtant,  
 toujours l'asso détente de Paris**Tech**
 
 ---
 
 
-L'épicerie solidaire, sa spéciali**té** 
+L'épicerie solidaire, sa spéciali**té**  
 jamais ne **laisse** quelqu'un de côté, jamais  
 ne pense qu'à sa **poire**
 
