@@ -1,9 +1,9 @@
 ---
 import Template from "./Template.astro";
 
-const { isArticle, lang, title, script} = Astro.props;
+const { isArticle, lang, title } = Astro.props;
 ---
 
-<Template title={title} langHeader={true} isArticle={isArticle} script={script}>
+<Template title={title} langHeader={true} isArticle={isArticle}>
     <slot />
 </Template>

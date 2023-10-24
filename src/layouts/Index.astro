@@ -4,25 +4,26 @@ import Logo from "../images/Logo_LH2.png";
 
 const regex = /.*\/LH\/LH(.*?)\/.*/;
 const lhs = await Astro.glob("/LH/**/fr/index.md*");
-const { title, lang='fr' } = Astro.props;
+const { title, lang = "fr" } = Astro.props;
 console.log(lang);
 const goodLhs = lhs
     .sort((a, b) => {
-        
         return b.file
             .replace(regex, "$1")
             .localeCompare(a.file.replace(regex, "$1"), undefined, { numeric: true, sensitivity: "base" });
     })
     .map((oneLh) => {
         const title = oneLh.frontmatter?.pubDate
-            ? new Date(oneLh.frontmatter.pubDate).toLocaleDateString(lang==='fr'?"fr-FR":"en-EN", {
+            ? new Date(oneLh.frontmatter.pubDate).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-EN", {
                   month: "long",
                   day: "numeric",
               })
             : "";
-        return { title: lang==='fr'?`Parution du ${title}`:`${title}'s issue` , link: `LH${oneLh.file.replace(regex, "$1")}` };
+        return {
+            title: lang === "fr" ? `Parution du ${title}` : `${title}'s issue`,
+            link: `LH${oneLh.file.replace(regex, "$1")}`,
+        };
     });
-
 ---
 
 <Template langHeader={true} lang={lang} isIndex={true}>
@@ -32,17 +33,25 @@ const goodLhs = lhs
     <div class="maligne"></div>
 
     <div id="logo">
-        <img src={Logo} width="250" alt="Lettre Hebdomadaire" />
+        <img src={Logo.src} width="250" alt="Lettre Hebdomadaire" />
     </div>
     <div id="menu">
         <h4>Parutions</h4>
         <div style="overflow-y:scroll; height:250px;">
-            {goodLhs.map((post) => 
-                <b><a class="menulink" href={`/${post.link}/${lang}/`}>{post.title}</a></b><br>
-            )}
+            {
+                goodLhs.map((post) => (
+                    <>
+                        <b>
+                            <a class="menulink" href={`/${post.link}/${lang}/`}>
+                                {post.title}
+                            </a>
+                        </b>
+                        <br />
+                    </>
+                ))
+            }
         </div>
     </div>
-    
+
     <slot />
-    
 </Template>

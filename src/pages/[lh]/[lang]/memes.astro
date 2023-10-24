@@ -3,7 +3,6 @@ import fs from "fs"
 import LH_article from "../../../layouts/LH_lang.astro";
 
 export async function getStaticPaths() {
-    const listArticles = await Astro.glob("/LH/**/*.(mdx|md)");
     const listLhs = fs.readdirSync("LH/").filter((lh) => lh.startsWith("LH"));
     let routes = [];
     for (const lhName of listLhs) {
@@ -18,7 +17,7 @@ export async function getStaticPaths() {
                 const memeImageFiles = fs.readdirSync(memeFolderPath);
                 routes.push({
                     params: { lh: lhName, lang: oneLang },
-                    props: { 
+                    props: {
                         images: memeImageFiles
                     },
                 });
