@@ -23,7 +23,7 @@ const correctDate = date ? new Date(date).toLocaleDateString(lang === "fr" ? "fr
         <img src={Logo} style='width: 250px' alt="Lettre Hebdomadaire" />
     </div>
 
-    <div id="menu">
+    <div id="menu" style="overflow-y:scroll; height:230px; margin-right:15px;">
         {
             posts.sort((post1, post2) => post1.order - post2.order).filter((post) => !post.draft).map((post) => (
                 <>

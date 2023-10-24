@@ -1,0 +1,24 @@
+---
+title: "Pourquoi le BDI est la meilleure asso ?"
+coverimage: "./bdi_barbecue.jpg"
+---
+
+Salut la compagnie ! 
+Avant toute chose, laissez moi vous assurer que je ne suis pas Quentin Roussel, le français le plus international de Telecom. Je ne suis pas non plus Mauro Parafati. Je ne suis même pas un.e international.e.
+Je suis juste giga fan.
+
+Pourquoi suis-je giga fan du BDI ?
+
+Alors déjà j'aime bien l'intégration, y compris des internationaux. Ensuite j'adore la France, j'en suis jamais sorti.e et je compte pas le faire. Ma lune de miel, ce sera en France. Les semaines à l'étranger je les ferai en Beligique francophone, et déjà ça me dégoûte. Athens j'ai eu Paris et c'était mon premier choix. Du coup j'apprécie énormément qu'il y ait une asso exprès pour découvrir les cultures des autres pays et faire découvrir la magnifique France aux gens qui viennent y étudier. 
+
+Dans les activités Telecommiennes, y a trois trucs que j'adore : le village français (France baise ouais), le village international (même pas besoin de voyager pour déguster), et les activités du BDI. 
+
+Les sorties à Paris elles sont super intéressantes, que vous soyez international ou franchouillard comme moi. Ca permet de visiter des lieux où on ne penserait pas à aller de nous-mêmes, comme la Banque de France, et ils proposent aussi des grands classiques à prix réduit comme la balade en bateaux mouches. Je ne peux que conseiller. En plus les photos sont toujours super qualitatives, vous pourrez les envoyer à votre abuela (on apprend des supers mots en parlant aux inter) et elle sera contente de vous trouver encore plus beau que d'ordinaire. 
+
+Le Barbecue Des Internationaux c'est un banger absolu, franchement ils foutent la honte à KFT et Telebreizh, vous pouvez pas test. Les côtes de porc elles sont super délicieuses, et la salade elle est super bien assaisonnée, contrairement aux apéros de liste, ça vous apprendra à faire des listes 100% fr. Allez au BDI, ça vous aidera à rencontrer des gens avec des cultures riches qui pourront vous éviter des fiascos comme le taboulé (ça ne vous lâchera jamais). 
+
+Bref, rejoignez le BDI : https://forms.gle/nYwTmX1rrRXoP3D39
+
+<div>
+<img width="40%" height="auto" src="../bdi_wants.jpg">
+</div>

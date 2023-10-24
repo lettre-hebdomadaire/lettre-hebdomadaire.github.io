@@ -53,20 +53,20 @@ const pageTitle = `${title || ""} - ${lh}`;
     <p style="font-size: smaller;">
         <i>
             {author && <>Par {author} </>}
-            {
-                pubDate && (
-                    <>
-                        {lang === "fr" ? "Le " : "On "}{" "}
-                        {new Date(pubDate).toLocaleDateString(lang == "fr" ? "fr-FR" : "en-EN", {
-                            year: "numeric",
-                            month: "long",
-                            day: "numeric",
-                        })}{" "}
-                        <> </>
-                    </>
-                )
-            }
-            <Content />
         </i>
+        {
+            pubDate && (
+                <>
+                    {lang === "fr" ? "Le " : "On "}{" "}
+                    {new Date(pubDate).toLocaleDateString(lang == "fr" ? "fr-FR" : "en-EN", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                    })}{" "}
+                    <> </>
+                </>
+            )
+        }
+        <Content />
     </p>
 </LH_lang>

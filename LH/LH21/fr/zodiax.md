@@ -1,0 +1,22 @@
+---
+title: "Réponse au polytechnicien du Zodiax"
+---
+
+Bonjour, Polytechnicien du Zodiax.
+
+Je souhaite représenter l'ensemble des télécommiens aujourd'hui. Tu l'as peut-être déjà remarqué mais nous avons engagé des agents de sécurité (qui sont tous à ta recherche). Nous avons des témoins chez Zodiax, ils ont aperçu ta silouhette et ce n'est qu'une question de temps avant que nos équipes ne constituent un portrait parfaitement descriptif, du genre qui ressemble à une image. (cf ci-dessous notre portrait actuel qui se rapproche de l'idée qu'on se fait d'un polytechnicien)
+
+<img src="../zodiax.png" width="80%" height="auto">
+
+Quant à nos capacités de séduction, je tiens à exprimer ma plus forte opposition. Les télécommiennes et télécommiens sont hors-normes vis à vis des standards de beauté, en témoignent le récent partenariat avec Chanel. Par ailleurs, les applications de rencontre sont formelles, savoir faire un compilateur en OCaml est un atout de charme diablement efficace. Voici un exemple de conversation qu'on peut avoir sur ce genre d'applications : 
+-Bonjour
+-Bonjour
+-Tu fais quoi dans la vie ?
+-Je suis à Telecom Paris
+-*Charmé(e)* ah oui... ?
+-Oui, je viens de faire un compilateur en OCaml. Bon, je te parle plus tard, je dois préparer mon TP JAVA
+-S'il te plaît, viens chez moi tout de suite, je ne peux plus attendre
+
+Voilà, donc je pense que les polytechniciens, ils ont pas le même genre de conversation. 
+
+Signé(e) : un(e) télécommien(ne) moyen(ne)
