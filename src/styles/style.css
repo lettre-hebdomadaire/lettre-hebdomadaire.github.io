@@ -35,6 +35,28 @@ iframe{
         border: 1px solid #cccccc;
 		display: block;
 	}
+	::-webkit-scrollbar {
+    -webkit-appearance: none;
+	}
+
+	::-webkit-scrollbar:vertical {
+		width: 8px;
+	}
+
+	::-webkit-scrollbar:horizontal {
+		height: 8px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, .5);
+		border-radius: 6px;
+		border: 2px solid #ffffff;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 6px;
+		background-color: #ffffff;
+	}
 }
 @media screen and (min-width: 800px) {
 	#ppal {
@@ -47,7 +69,8 @@ iframe{
 		font-size: large;
 	}
 }
-	
+
+
 td {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 10pt;
