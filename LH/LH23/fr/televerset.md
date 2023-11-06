@@ -6,10 +6,10 @@ use_math: true
 
 Excellente rentrée à tous, mes amis télélecteurs !
 
-Cette semaine, j'ai voulu changer.
+Cette semaine, j'ai voulu changer.  
 J'ai voulu échanger, transposer, permuter, réordonner.
 
-Et rien de tel pour se changer les idées que de vous présenter un ami !
+Et rien de tel pour se changer les idées que de vous présenter un ami !  
 Je vous présente Raymond Quenaud.
 
 C'est un grand curieux: poète, romancier, acteur, mais aussi mathématicien et philosophe à ses heures perdues.
@@ -20,7 +20,7 @@ Et bien évidemment, il a une contrainte à son nom: la quenine.
 
 # Mais je me demande comment diable peut fonctionner cette contrainte d'écriture ?!
 
-On choisit d'abord une liste de $n$ mots ou de syllabes. Appelons les des atomes.
+On choisit d'abord une liste de $n$ mots ou de syllabes. Appelons les des atomes.  
 On va construire notre histoire à partir de ces atomes, en les permutant sans cesse.
 
 Pour la première strophe, on construit $n$ vers où l'on utilise à la fin de chaque vers un atome. On doit les utiliser dans l'ordre choisi initialement.
@@ -70,12 +70,12 @@ Heure de l'apéro:
 je sors le fromage  
 Puis débouche le vin.  
 
-Pas n'importe quel vin:
+Pas n'importe quel vin:  
 Pour faire un bon apéro,   
 Il doit s'accorder avec le fromage.  
 
-Car si même le fromage 
-Peut se manger sans vin
+Car si même le fromage  
+Peut se manger sans vin  
 Cela ne fait pas un apéro.
 
 ## Chalousie
@@ -95,7 +95,7 @@ Oui, mais les danses d'amour et les caresses entre étudiants, le chat n'aime pa
 Dans sa chambre, un éléphant nettoie sa trompe.  
 Il se fait beau. Ce pachyderme, c'est Babar.  
 Son coeur bat fort, car aujourd'hui, il rencontre Schreck.  
-Il vient en avance: pas question d'être à la course !
+Il vient en avance: pas question d'être à la course !  
 Le soir venu, il n'abuse pas sur l'alcool:  
 Il veut être lucide au moment de faire l'amour.  
 
