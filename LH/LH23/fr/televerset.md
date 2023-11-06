@@ -94,7 +94,7 @@ Oui, mais les danses d'amour et les caresses entre étudiants, le chat n'aime pa
 
 Dans sa chambre, un éléphant nettoie sa trompe.  
 Il se fait beau. Ce pachyderme, c'est Babar.  
-Son coeur bat fort, car aujourd'hui, il rencontre Schreck.  
+Son coeur bat fort, car aujourd'hui, il rencontre Shrek.  
 Il vient en avance: pas question d'être à la course !  
 Le soir venu, il n'abuse pas sur l'alcool:  
 Il veut être lucide au moment de faire l'amour.  
@@ -104,9 +104,9 @@ La force supérieure qui jamais ne se trompe !
 Elle qui vous rend ivre aussi bien que l'alcool  
 Heureux et plein d'espoir, Babar  
 Imagine même se remettre à la course  
-Et il rêve au jour où il va revoir Schreck  
+Et il rêve au jour où il va revoir Shrek  
 
-Mais même si son coeur bat pour Schreck,  
+Mais même si son coeur bat pour Shrek,  
 Il n'oublie pas son fils, son petit, son amour.  
 L'ami de celui-ci, l'énergique Sonic, lui propose une course  
 L'éléphant voudrait accepter mais il a peur de s'étouffer avec sa trompe.  
@@ -114,16 +114,16 @@ Mais tu dois prendre ton courage Babar.
 Tu va vaincre la souffrance du corps comme tu as vaincu l'alcool.  
 
 Babar peut enfin se récompenser avec un verre d'alcool  
-Son deuxième depuis sa douce rencontre avec Schreck  
+Son deuxième depuis sa douce rencontre avec Shrek  
 "Tu as réussi, mon héros !" dit Sonic à Babar  
 Babar rougit, il ne comprend plus: il pensait avoir trouvé l'amour  
 Coup fatal, malédiction, quand l'ogre lui crie "Tu me trompes ?"  
 L'ogre est vert, Babar livide, mais pas à cause de la course.   
 
-La guerre déclarée, Sonic et Schreck entrent dans la course  
+La guerre déclarée, Sonic et Shrek entrent dans la course  
 Pour remporter les faveurs du grand gardien de l'alcool  
 Le barman en panique cache ses yeux derrière sa trompe  
-L'ogre gronde, pourtant Sonic n'a pas peur de Schreck  
+L'ogre gronde, pourtant Sonic n'a pas peur de Shrek  
 Aucun ne peut reculer, sous l'emprise de l'amour  
 Le monde retient son souffle: les passants, l'âne et Babar  
 
@@ -131,5 +131,5 @@ La tension monte, jusqu'au moment où il craque, le Babar
 Il s'enfuit et personne ne peut arrêter sa course  
 Il est perdu, désemparé, il déteste l'amour  
 Il a peur de tout plaquer et de retomber dans l'alcool  
-Le hérisson le rattrape, ensuite arrive Schreck  
+Le hérisson le rattrape, ensuite arrive Shrek  
 Babar explique qu'il veut du temps, pour réfléchir, seul avec sa trompe.

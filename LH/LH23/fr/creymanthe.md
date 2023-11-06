@@ -1,5 +1,6 @@
 ---
 title: "Chroniques de Creymanthe - Ch1"
+coverimage: "./mer.jpg"
 ---
 
 # Chapitre Premier : L'île de Creymanthe
