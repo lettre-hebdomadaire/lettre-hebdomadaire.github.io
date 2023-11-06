@@ -5,7 +5,7 @@ import Logo from "../images/Logo_LH2.png";
 const regex = /.*\/LH\/LH(.*?)\/.*/;
 const lhs = await Astro.glob("/LH/**/fr/index.md*");
 const { title, lang = "fr" } = Astro.props;
-console.log(lang);
+
 const goodLhs = lhs
     .sort((a, b) => {
         return b.file
