@@ -29,6 +29,7 @@ export async function getStaticPaths() {
                             author: goodArticle?.frontmatter?.author,
                             coverimage: imagePath && `/${lhName}/${imagePath}`,
                             pubDate: goodArticle?.frontmatter?.pubDate,
+                            use_math: goodArticle?.frontmatter?.use_math,
                         },
                     });
                 }
@@ -40,12 +41,12 @@ export async function getStaticPaths() {
 }
 
 const { lh, lang, path } = Astro.params;
-const { currentLh: Content, title, subtitle, coverimage, author, pubDate } = Astro.props;
+const { currentLh: Content, title, subtitle, coverimage, author, pubDate, use_math } = Astro.props;
 
 const pageTitle = `${title || ""} - ${lh}`;
 ---
 
-<LH_lang lang={lang} title={pageTitle}>
+<LH_lang lang={lang} title={pageTitle} use_math={use_math}>
     {coverimage && <img src={coverimage} style="width:100%;" height="auto" />}
     <h1>{title}</h1>
     <h2>{subtitle}</h2>
