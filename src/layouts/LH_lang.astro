@@ -2,7 +2,6 @@
 import Template from "./Template.astro";
 
 const { isArticle, lang, title, use_math } = Astro.props;
-console.log("Use math: ", use_math);
 ---
 
 <Template title={title} langHeader={true} isArticle={isArticle} use_math={use_math}>
