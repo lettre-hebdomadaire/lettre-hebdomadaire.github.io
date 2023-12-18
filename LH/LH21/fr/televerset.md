@@ -1,5 +1,6 @@
 ---
 title: "Téléverset - 3ème édition"
+tags: ["televerset"]
 ---
 
 # Intro

@@ -1,6 +1,7 @@
 ---
 title: "Televerset - 4ème édition"
 use_math: true
+tags: ["televerset"]
 ---
 # Intro
 

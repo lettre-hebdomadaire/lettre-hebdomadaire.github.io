@@ -1,5 +1,6 @@
 ---
 title: "Télé-verset - 1ère édition"
+tags: ["televerset"]
 ---
 
 Oyez braves oreilles !
