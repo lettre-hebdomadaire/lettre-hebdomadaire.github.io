@@ -1,0 +1,65 @@
+---
+import fs from "fs";
+import LH_lang from "../../../layouts/LH_lang.astro";
+
+export async function getStaticPaths() {
+    const articles = await Astro.glob("/LH/**/*.(mdx|md)");
+    const listLhs = fs.readdirSync("LH/").filter((lh) => lh.startsWith("LH"));
+    let taggedArticles = [];
+    for (const lhName of listLhs) {
+        const listLangs = fs.readdirSync(`LH/${lhName}/`);
+        for (const oneLang of listLangs) {
+            if (oneLang.includes(".")) {
+                continue;
+            }
+            const listLhs = fs.readdirSync(`LH/${lhName}/${oneLang}/`);
+            for (const oneArticle of listLhs) {
+                const goodArticle = articles.find((e) => {
+                    return e.file.includes(`/LH/${lhName}/${oneLang}/${oneArticle}`);
+                });
+                if (goodArticle) {
+                    for (const oneTag of goodArticle?.frontmatter?.tags || []) {
+                        taggedArticles.push({
+                            params: { tag: oneTag },
+                            props: {
+                                lh: lhName,
+                                lang: oneLang,
+                                article: oneArticle,
+                                title: goodArticle?.frontmatter?.title,
+                            },
+                        });
+                    }
+                }
+            }
+        }
+    }
+    const goodArticles = taggedArticles.reduce((previousValue, currentValue) => {
+        return {
+            ...previousValue,
+            [currentValue.params.tag]: [...(previousValue[currentValue.params.tag] || []), currentValue.props],
+        };
+    }, {});
+
+    return Object.entries(goodArticles).map(([key, value]) => {
+        return { params: { tag: key }, props: { articles: value } };
+    });
+}
+
+const { tag } = Astro.params;
+const { articles } = Astro.props;
+---
+
+<LH_lang>
+    <p>Articles tagged with {tag}:</p>
+    {
+        articles.map((article) => {
+            return (
+                <a href={`/${article.lh}/${article.lang}/${article.article.split(".").slice(0, -1).join(".")}`}>
+                    <p>
+                        in {`/${article.lh}/${article.lang}/`} - {article.title}
+                    </p>
+                </a>
+            );
+        })
+    }
+</LH_lang>

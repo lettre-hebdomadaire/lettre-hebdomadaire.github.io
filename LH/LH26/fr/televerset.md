@@ -1,5 +1,6 @@
 ---
 title: "Televerset 6ème édition : télécorimes"
+tags: ["televerset"]
 ---
 
 Télélecteur, bienvenue.

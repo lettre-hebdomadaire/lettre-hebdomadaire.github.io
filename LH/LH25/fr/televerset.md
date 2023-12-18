@@ -1,5 +1,6 @@
 ---
 title: "Televerset - 5ème édition"
+tags: ["televerset"]
 ---
 
 Télélecteurs, je vous souhaite le bon jour.

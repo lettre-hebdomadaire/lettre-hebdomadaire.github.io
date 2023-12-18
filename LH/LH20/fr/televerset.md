@@ -1,5 +1,6 @@
 ---
 title: "Télé-verset - 2ème édition"
+tags: ["televerset"]
 ---
 
 

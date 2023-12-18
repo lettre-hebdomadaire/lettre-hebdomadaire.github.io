@@ -1,5 +1,6 @@
 ---
 title: "Téléverset #7 - Les @ouilles"
+tags: ["televerset"]
 ---
 > DISCLAIMER. cet article contient des @ouilles. Vous voilà prévenu.
 
