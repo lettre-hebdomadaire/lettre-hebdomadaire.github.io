@@ -52,7 +52,11 @@ const { articles } = Astro.props;
 <LH_lang>
     <p>Articles tagged with {tag}:</p>
     {
-        articles.map((article) => {
+        articles
+        .sort((a, b) => {
+            return a.pubDate - b.pubDate;
+        })
+        .map((article) => {
             return (
                 <a href={`/${article.lh}/${article.lang}/${article.article.split(".").slice(0, -1).join(".")}`}>
                     <p>
