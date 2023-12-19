@@ -2,7 +2,7 @@
 title: "Un éléphant, ça trompe énormément - partie 3"
 linktitle: "Un éléphant, ça trompe énormément part 3"
 pubDate: 2023-05-29
-tag: "babar"
+tags: ["babar"]
 ---
 
  Babar regarde sa montre, puis les arbres du parc. Le temps lui paraît si long aujourd'hui. Cela faisait combien de temps que Babar n'avait pas enfilé cette tenue de sport ? Il ne s'en rappelle même plus. Il ne peut que constater que ces vêtements autrefois flottants lui collent maintenant au corps. Le temps peut être bien ingrat. Babar n'a pas spécialement à se plaindre se dit-il pour calmer rationnellement ses auto-critiques. Il a des excroissances au niveau des hanches, un dépassement au niveau du ventre et quelques parties du corps qui tendent à se boudiner mais le temps fait aussi son charme pense-t-il. Ne parle-t-on pas aussi de poignées d'amour songe-t-il.

@@ -1,6 +1,7 @@
 ---
 title: "Un éléphant, ça trompe énormément - fin"
 pubDate: 2023-08-28
+tags: ["babar"]
 ---
 
   Babar sort de sa douche. Il est l'heure d'aller à ses deux rendez-vous. Il ne sait pas à quoi il pensait au moment d'envoyer ses messages à Shrek et à Sonic. Peut-être pensait-il qu'ils ne répondraient pas tous les deux, peut-être avait-il envie de se faire désirer. Il se rase. Une peau d'éléphant, ça s'entretient, ça se soigne et puis ça se regarde, ça s'admire. Il finit son rasage par un filet d'eau sur son visage pour écarter de la mousse en surplus, c'est aussi le secret de sa fraîcheur. Il enfile des vêtements, un manteau. D'abord, il verra Shrek, ensuite il verra Sonic en soirée.

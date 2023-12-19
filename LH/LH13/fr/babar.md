@@ -2,6 +2,7 @@
 title: "Un éléphant, ça trompe énormément - partie 4"
 linktitle: "Fanfic Babar - partie 4"
 pubDate: 2023-06-26
+tags: ["babar"]
 ---
 
 "Shrek ?!"

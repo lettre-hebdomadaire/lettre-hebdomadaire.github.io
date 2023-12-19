@@ -1,5 +1,6 @@
 ---
 title: "Téléverset #8"
+tags: ["televerset"]
 ---
 
 Slt les télélécteurs de TP !

@@ -1,7 +1,7 @@
 ---
 title: "Un éléphant, ça trompe énormément... Partie 2"
 pubDate: 2023-05-15
-tag: "babar"
+tags: ["babar"]
 ---
 
  Une semaine a passé depuis leur rendez-vous. Babar regarde son téléphone. Aucune notification. Est-ce que Shrek n'a pas apprécié notre nuit ensemble ? Ai-je dit quelque chose de déplacée ? Des tas de questions se bousculent dans sa tête. Et si finalement Shrek ne l'apprécie pas ? Il ne peut penser à tout ça en ce moment, son fils lui a annoncé la veille qu'il partait faire ses études aux Etats-Unis.
