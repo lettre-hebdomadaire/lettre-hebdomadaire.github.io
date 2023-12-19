@@ -1,7 +1,6 @@
 ---
 title: "La vue"
 ---
-O
 Je me tiens au bord du balcon  
 Et j'y suis pris d'un frisson  
 Cette ville, là en contrebas,  
