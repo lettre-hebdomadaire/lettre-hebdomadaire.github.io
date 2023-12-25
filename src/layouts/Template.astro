@@ -6,11 +6,15 @@ import en from "../images/en.png";
 import Logo from "../images/Logo_LH2.png";
 import "../styles/style.css";
 
+import Guirlande from "../../public/guirlande.png";
+import GuirlandeTop from "../../public/guirlande_top.png";
+
 const { title, langHeader, lang, isArticle, isIndex, use_math } = Astro.props;
 const currentPath = Astro.url.pathname;
 const hrefLangFr = lang === "fr" ? currentPath : currentPath === "/en" ? "/" : currentPath.replace("/en/", "/fr/");
 const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : currentPath.replace("/fr/", "/en/");
 ---
+
 
 <!doctype html>
 <html>
@@ -28,9 +32,30 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
             )
 
         }
+        <style>
+            .deco {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: -1;
+            }
+            #ppal {
+                border-radius: 10px;
+            }
+            .deco2 {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+
+        </style>
     </head>
 
     <body>
+        <img class="deco" src={Guirlande.src} />
+        <img class="deco2" src={GuirlandeTop.src} />
+        
         <div class="topnav">
             <div class="topnav-left">
                 <a class="img-link" href="/">
