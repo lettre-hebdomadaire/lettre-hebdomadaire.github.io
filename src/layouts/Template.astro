@@ -33,6 +33,7 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
 
         }
         <style>
+            
             .deco {
                 position: absolute;
                 top: 0;
@@ -40,21 +41,25 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
                 width: 100%;
                 z-index: -1;
             }
+            .blurred {
+                filter:blur(3px) saturate(100%);
+                opacity: 0.7;
+            }
             #ppal {
                 border-radius: 10px;
             }
             .deco2 {
                 position: absolute;
                 left: 50%;
+                top: 0;
                 transform: translate(-50%, 0);
+                z-index: 1;
             }
 
         </style>
     </head>
 
     <body>
-        <img class="deco" src={Guirlande.src} />
-        <img class="deco2" src={GuirlandeTop.src} />
         
         <div class="topnav">
             <div class="topnav-left">
@@ -67,7 +72,7 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
                     />
                 </a>
                 {
-                    isArticle && (
+                    /*isArticle && (
                         <>
                             <a class="img-link" style=" background-color: transparent;">
                                 <div class="img-link" style="width:10px; background-color: transparent;" />
@@ -81,7 +86,7 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
                                 />
                             </a>
                         </>
-                    )
+                    )*/
                 }
             </div>
             {
@@ -105,5 +110,18 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
                 <slot />
             </div>
         </div>
+        
+        { isArticle &&
+            <style>
+                body {
+                    background-color: rgb(255, 230, 230);
+                }    
+            </style>
+            <img class="deco blurred" src={Guirlande.src} />
+        }
+        { !isArticle &&
+            <img class="deco" src={Guirlande.src} />
+        }
+        <img class="deco2" src={GuirlandeTop.src} />
     </body>
 </html>
