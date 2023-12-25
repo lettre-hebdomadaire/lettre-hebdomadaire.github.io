@@ -2,7 +2,7 @@
 pubDate: 2023-09-25
 title: "Lancement de Télésurvie"
 author: "Stroumpf"
-coverimage: "./cover_mc.png"
+coverimage: "../cover_mc.png"
 ---
 
 Salut à toi ! 

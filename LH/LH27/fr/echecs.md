@@ -1,5 +1,6 @@
 ---
-title: "Tedrhuyagonall analyse ses parties d'échecs #4"
+title: "Tedrhuyagonall analyse ses parties d'échecs #6"
+tags: ["echecs"]
 ---
 
 ## Aperçu

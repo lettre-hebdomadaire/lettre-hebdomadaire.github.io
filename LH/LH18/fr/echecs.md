@@ -1,5 +1,6 @@
 ---
 title: "Tedrhuyagonall analyse ses parties d'échecs #2"
+tags: ["echecs"]
 ---
 
 ## Rant

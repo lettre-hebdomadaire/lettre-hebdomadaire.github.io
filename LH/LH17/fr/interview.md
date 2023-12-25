@@ -2,7 +2,7 @@
 title: "Interview du plus grand auteur de l'histoire"
 linktitle: "Interview auteur babar"
 ---
----
+
 Bonjour. Voici le compte-rendu d'une interview entre moi, fan n°1 de la fanfic babar-shrek **(incontestablement)**, et son (ses) auteurs. Attention! La lecture de cet article vous expose vous! lectrice ou lecteur, à un potentiel **divulgâchis**. Vous voilà prévenu.e...
 
 H.P. *Professionnel* — Vous êtes à l'initiative d'une des plus grandes œuvres littéraire jamais publiée dans la LH. Ce feuilleton a marqué les esprits dès la parution du premier chapitre, et en particulier le mien alors que je n'étais même pas admis à Télécom. Devant un tel succès, quelle fut d'abord votre réaction et comment avez-vous réussi à maintenir un tel niveau de qualité au fil des semaines?

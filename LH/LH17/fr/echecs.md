@@ -1,7 +1,7 @@
 ---
 title: "Tedrhuyagonall analyse ses parties d'échecs #1"
 linktitle: "Tedrhuyagonall analyse ses parties d'échecs"
-tag: "echecs"
+tags: ["echecs"]
 ---
 
 ---

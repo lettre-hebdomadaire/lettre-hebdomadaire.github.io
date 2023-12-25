@@ -1,6 +1,7 @@
 ---
-title: "Encore une capsule échiquéenne"
+title: "Encore une capsule échiquéenne #5"
 linktitle: "Capsule échiquéenne"
+tags: ["echecs"]
 ---
 
 ## Présentation
