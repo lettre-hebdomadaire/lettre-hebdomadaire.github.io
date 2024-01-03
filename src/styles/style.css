@@ -212,3 +212,13 @@ blockquote {
 	padding-left: 8px;
 	border-left: 4px solid #CCC;
 }
+
+.badge {
+	background-color: var(--color-tag);
+	color: black;
+	padding: 0.2em;
+	margin: 0.2em;
+	border-radius: 0.5em;
+	display: inline-block;
+	cursor: pointer;
+}

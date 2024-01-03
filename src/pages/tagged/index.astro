@@ -1,8 +1,8 @@
 ---
 import fs from "fs";
-import LH_lang from "../../../layouts/LH_lang.astro";
+import LH_lang from "../../layouts/LH_lang.astro";
 
-export async function getStaticPaths() {
+async function get() {
     const articles = await Astro.glob("/LH/**/*.(mdx|md)");
     const listLhs = fs.readdirSync("LH/").filter((lh) => lh.startsWith("LH"));
     let taggedArticles = [];
@@ -40,31 +40,22 @@ export async function getStaticPaths() {
         };
     }, {});
 
-    return Object.entries(goodArticles).map(([key, value]) => {
-        return { params: { tag: key }, props: { articles: value } };
-    });
+    return goodArticles;
 }
-
-const { tag } = Astro.params;
-const { articles } = Astro.props;
+const res = await get();
 ---
 
 <LH_lang>
-    <p>Articles tagged with <span class="badge">{tag}</span>:</p>
+    <p>Tags:</p>
     {
-        articles
-            .sort((a, b) => {
-                return a.pubDate - b.pubDate;
-            })
-            .map((article) => {
-                return (
-                    <a href={`/${article.lh}/${article.lang}/${article.article.split(".").slice(0, -1).join(".")}`}>
-                        <p>
-                            in {`/${article.lh}/${article.lang}/`} - {article.title}
-                        </p>
-                    </a>
-                );
-            })
+        Object.entries(res).map(([tag, article]) => {
+            return (
+                <a href={`/tagged/${tag}`}>
+                    <p>
+                        <span class="badge">{`${tag}`}</span> ({article.length})
+                    </p>
+                </a>
+            );
+        })
     }
-    <h3><a href="/tagged">Voir tous les <span class="badge">tags</span></a></h3>
 </LH_lang>

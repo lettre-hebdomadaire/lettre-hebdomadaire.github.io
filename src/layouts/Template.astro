@@ -5,6 +5,7 @@ import fr from "../images/fr.png";
 import en from "../images/en.png";
 import Logo from "../images/Logo_LH2.png";
 import "../styles/style.css";
+import { color } from "../constants";
 
 import Guirlande from "../../public/guirlande.png";
 import GuirlandeTop from "../../public/guirlande_top.png";
@@ -17,7 +18,7 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
 
 
 <!doctype html>
-<html>
+<html style={`--color-tag: ${color}`}>
     <head>
         <title>{title}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -28,12 +29,10 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
         />
         {
             use_math && (
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.css" integrity="sha384-WsHMgfkABRyG494OmuiNmkAOk8nhO1qE+Y6wns6v+EoNoTNxrWxYpl5ZYWFOLPCM" crossorigin="anonymous">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.css" integrity="sha384-WsHMgfkABRyG494OmuiNmkAOk8nhO1qE+Y6wns6v+EoNoTNxrWxYpl5ZYWFOLPCM" crossorigin="anonymous" />
             )
-
         }
         <style>
-            
             .deco {
                 position: absolute;
                 top: 0;
@@ -60,7 +59,6 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
     </head>
 
     <body>
-        
         <div class="topnav">
             <div class="topnav-left">
                 <a class="img-link" href="/">
@@ -110,14 +108,15 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
                 <slot />
             </div>
         </div>
-        
         { isArticle &&
-            <style>
-                body {
-                    background-color: rgb(255, 240, 240);
-                }    
-            </style>
-            <img class="deco blurred" src={Guirlande.src} />
+            <>
+                <style>
+                    body {
+                        background-color: rgb(255, 240, 240);
+                    }
+                </style>
+                <img class="deco blurred" src={Guirlande.src} />
+            </>
         }
         { !isArticle &&
             <img class="deco" src={Guirlande.src} />
