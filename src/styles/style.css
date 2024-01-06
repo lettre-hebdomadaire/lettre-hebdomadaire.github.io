@@ -127,7 +127,7 @@ A.menulink:hover {
 	padding: 10px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #000000;
-	word-break: break-word;
+	overflow-wrap: break-word;
 }
 
 #menu {
@@ -136,6 +136,7 @@ A.menulink:hover {
 	margin: 0;
 	padding: 10px;
 	text-align: center;
+	overflow-wrap: break-word;
 }
 
 #footer {
