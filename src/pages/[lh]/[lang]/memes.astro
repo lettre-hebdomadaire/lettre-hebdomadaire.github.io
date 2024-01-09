@@ -1,8 +1,19 @@
 ---
-import fs from "fs"
+import fs from "fs";
 import LH_article from "../../../layouts/LH_lang.astro";
+import { basename, parse } from "path";
 
 export async function getStaticPaths() {
+    const imgs = await Astro.glob("/LH/**/*.(jpg|png|gif|jpeg|webp|svg)");
+    const imgsName = imgs.map((i) => {
+        const f = i.default?.src || i.default;
+        const filename = parse(basename(f)).name.split(".")[0];
+        return filename;
+    });
+    if (imgsName.length !== new Set(imgsName).size) {
+        const names = imgsName.filter((e, i, a) => a.indexOf(e) !== i);
+        throw `Duplicates images !!! ${JSON.stringify(names)}}`;
+    }
     const listLhs = fs.readdirSync("LH/").filter((lh) => lh.startsWith("LH"));
     let routes = [];
     for (const lhName of listLhs) {
@@ -11,14 +22,23 @@ export async function getStaticPaths() {
             if (oneLang.includes(".")) {
                 continue;
             }
-            const memeFolderPath = `public/${lhName}/${oneLang}/memes`;
+            const memeFolderPath = `LH/${lhName}/${oneLang}/memes`;
             const memePageExists = fs.existsSync(memeFolderPath);
-            if(memePageExists) {
-                const memeImageFiles = fs.readdirSync(memeFolderPath);
+            if (memePageExists) {
+                const memeImageFiles = fs.readdirSync(memeFolderPath).map((oneFile) => {
+                    return parse(oneFile).name;
+                });
+                const correctImgs = imgs.filter((a) => {
+                    const filename = parse(basename(a.default.src)).name.split(".")[0];
+                    if (memeImageFiles.includes(filename)) {
+                        return true;
+                    }
+                    return false;
+                });
                 routes.push({
                     params: { lh: lhName, lang: oneLang },
                     props: {
-                        images: memeImageFiles
+                        images: correctImgs,
                     },
                 });
             }
@@ -33,14 +53,15 @@ const memesTitle = lang === "fr" ? "Memes de la semaine" : "Memes of the week";
 ---
 
 <LH_article lang={lang} title={memesTitle}>
-
     <center><h1>{memesTitle}</h1></center>
 
     {
-    images.map((path) => (
-        <img src={`/${lh}/${lang}/memes/${path}`} style="width: 90%; height: auto;" />
-        <br>
-        <br>
-    ))
+        images.map((oneImage) => (
+            <>
+                <img src={oneImage.default.src} style="width: 90%; height: auto;" />
+                <br />
+                <br />
+            </>
+        ))
     }
 </LH_article>
