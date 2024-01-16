@@ -33,14 +33,15 @@ const memesTitle = lang === "fr" ? "Memes de la semaine" : "Memes of the week";
 ---
 
 <LH_article lang={lang} title={memesTitle}>
-
+    <span><a href={`/${lh}/${lang}/`}>◀ Edito</a></span>
     <center><h1>{memesTitle}</h1></center>
-
     {
-    images.map((path) => (
-        <img src={`/${lh}/${lang}/memes/${path}`} style="width: 90%; height: auto;" />
-        <br>
-        <br>
-    ))
+        images.map((path) => (
+            <>
+                <img src={`/${lh}/${lang}/memes/${path}`} style="width: 90%; height: auto;" />
+                <br />
+                <br />
+            </>
+        ))
     }
 </LH_article>
