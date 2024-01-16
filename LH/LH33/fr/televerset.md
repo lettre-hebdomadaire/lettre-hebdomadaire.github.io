@@ -1,6 +1,7 @@
 ---
 title: "Televerset - 10ème édition"
 tags: [televerset]
+use_math: true
 ---
 
 

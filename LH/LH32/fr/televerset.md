@@ -1,6 +1,7 @@
 ---
 title: "Televerset #9 : AEIOU"
 tags: [televerset]
+use_math: true
 ---
 
 # Intro
