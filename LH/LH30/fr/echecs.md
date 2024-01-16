@@ -1,6 +1,5 @@
 ---
 title: "Petits Mats de Noël !"
-order: 2
 tags: ["echecs"]
 ---
 

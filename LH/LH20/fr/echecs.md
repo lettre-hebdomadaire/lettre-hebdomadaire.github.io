@@ -1,5 +1,5 @@
 ---
-title: "Petite capsule échiquéenne #4"
+title: "Petite capsule échiquéenne"
 order: 2
 tags: ["echecs"]
 ---
