@@ -9,7 +9,7 @@ const errors = checkLH();
     {
         errors.map((oneError) => (
             <p>
-                {oneError.file} : {oneError.message}
+                {oneError.file} : {oneError.message} {oneError.altUrl && <>. Alternative version at <a href={oneError.altUrl}>{oneError.altUrl}</a></>}
             </p>
         ))
     }
