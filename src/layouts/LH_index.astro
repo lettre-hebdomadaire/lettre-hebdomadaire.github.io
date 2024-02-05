@@ -45,12 +45,16 @@ const correctDate = date
                 ))
         }
     </div>
-    <h1>{title}</h1>
+    {title && 
+        <>
+            <h1>{title}</h1>
+        </>
+    }
     <div id="content">
         <p>
             <slot />
         </p>
-        {lang === "en" && <FooterEn />}
-        {lang === "fr" && <FooterFr />}
     </div>
+    {lang === "en" && <FooterEn />}
+    {lang === "fr" && <FooterFr />}
 </Template>
