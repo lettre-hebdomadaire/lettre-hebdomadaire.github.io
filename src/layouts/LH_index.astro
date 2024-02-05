@@ -3,9 +3,9 @@ import fr from "../images/fr.png";
 import en from "../images/en.png";
 import Logo from "../images/Logo_LH2.png";
 import "../styles/style.css";
-import FooterEn from "../components/FooterEn.astro";
-import FooterFr from "../components/FooterFr.astro";
 import Template from "./Template.astro";
+import Footer from "../components/Footer.astro";
+
 const { posts, lang = "fr", date = null, title } = Astro.props;
 const { lh } = Astro.params;
 
@@ -45,16 +45,17 @@ const correctDate = date
                 ))
         }
     </div>
-    {title && 
-        <>
-            <h1>{title}</h1>
-        </>
+    {
+        title && (
+            <>
+                <h1>{title}</h1>
+            </>
+        )
     }
     <div id="content">
         <p>
             <slot />
         </p>
+        <Footer lang={lang} />
     </div>
-    {lang === "en" && <FooterEn />}
-    {lang === "fr" && <FooterFr />}
 </Template>
