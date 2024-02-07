@@ -1,0 +1,16 @@
+---
+import FooterEn from "./FooterEn.astro";
+import FooterFr from "./FooterFr.astro";
+
+const { lang } = Astro.props;
+---
+
+<p class="footer">
+    {lang === "fr" ? <FooterFr /> : <FooterEn />}
+</p>
+
+<style>
+    .footer {
+        display: inline-block;
+    }
+</style>

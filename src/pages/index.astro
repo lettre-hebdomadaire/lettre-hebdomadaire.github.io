@@ -1,14 +1,14 @@
 ---
-import Index2 from "../layouts/Index.astro";
-import FooterFr from "../components/FooterFr.astro";
+import IndexLayout from "../layouts/Index.astro";
+import Footer from "../components/Footer.astro";
 ---
 
-<Index2 title={"La Lettre Hebdomadaire"}>
-  <p text-align="justify">
-    La Lettre Hebdomadaire, qu'est-ce que c'est ? Une sorte de cryptide, une association qui, malgré les ides de mars
-    qu'elle subit chaque année, finit toujours par ressortir de l'oubli pour un ou deux mois.
-  </p>
-  <p>Vous ne pourrez jamais savoir si l'édition que vous lisez est la dernière. Alors, profitez-en.</p>
+<IndexLayout title={"La Lettre Hebdomadaire"}>
+    <p text-align="justify">
+        La Lettre Hebdomadaire, qu'est-ce que c'est ? Une sorte de cryptide, une association qui, malgré les ides de
+        mars qu'elle subit chaque année, finit toujours par ressortir de l'oubli pour un ou deux mois.
+    </p>
+    <p>Vous ne pourrez jamais savoir si l'édition que vous lisez est la dernière. Alors, profitez-en.</p>
 
-  <FooterFr />
-</Index2>
+    <Footer lang={"fr"} />
+</IndexLayout>

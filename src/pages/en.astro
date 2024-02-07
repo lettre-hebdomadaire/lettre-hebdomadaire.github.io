@@ -1,14 +1,16 @@
 ---
 import Index from "../layouts/Index.astro";
-import FooterEn from "../components/FooterEn.astro";
+import Footer from "../components/Footer.astro";
+
+const lang = "en";
 ---
 
-<Index title={"The Weakly Newsletter"} lang="en">
-  <p text-align="justify">
-    What is the Weakly Newsletter? Some kind of cryptid, an association that, despite the Ides of March it undergoes
-    every year, always manages to emerge from oblivion for a month or two.
-  </p>
-  <p>You will never know if the edition you are reading is the last. So, enjoy it.</p>
-  <FooterEn />
-  <br /> <br />
+<Index title={"The Weakly Newsletter"} lang={lang}>
+    <p text-align="justify">
+        What is the Weakly Newsletter? Some kind of cryptid, an association that, despite the Ides of March it undergoes
+        every year, always manages to emerge from oblivion for a month or two.
+    </p>
+    <p>You will never know if the edition you are reading is the last. So, enjoy it.</p>
+    <Footer lang={lang} />
+    <br />
 </Index>
