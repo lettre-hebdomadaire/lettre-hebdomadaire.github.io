@@ -7,9 +7,6 @@ import Logo from "../images/Logo_LH2.png";
 import "../styles/style.css";
 import { color } from "../constants";
 
-import Guirlande from "../../public/guirlande.png";
-import GuirlandeTop from "../../public/guirlande_top.png";
-
 const { title, langHeader, lang, isArticle, isIndex, use_math } = Astro.props;
 const currentPath = Astro.url.pathname;
 const hrefLangFr = lang === "fr" ? currentPath : currentPath === "/en" ? "/" : currentPath.replace("/en/", "/fr/");
@@ -108,19 +105,5 @@ const hrefLangEn = lang === "en" ? currentPath : currentPath === "/" ? "/en" : c
                 <slot />
             </div>
         </div>
-        { isArticle &&
-            <>
-                <style>
-                    body {
-                        background-color: rgb(255, 240, 240);
-                    }
-                </style>
-                <img class="deco blurred" src={Guirlande.src} />
-            </>
-        }
-        { !isArticle &&
-            <img class="deco" src={Guirlande.src} />
-        }
-        <img class="deco2" src={GuirlandeTop.src} />
     </body>
 </html>
