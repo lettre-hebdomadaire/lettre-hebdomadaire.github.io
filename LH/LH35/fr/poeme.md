@@ -1,5 +1,6 @@
 ---
 title: "Poème hebdomadaire n°3"
+tags: ["poème hebdo"]
 ---
 <center><h2>Le Pianiste</h2></center>
 
