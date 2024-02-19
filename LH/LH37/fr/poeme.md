@@ -72,6 +72,7 @@ Et je saute me répéter.
 Je suis pris à mon propre jeu <br />
 Et elle m’en fait donc la leçon. <br />
 Ce n’est pas la bonne façon, <br />
+De se rendre si malheureux.
 </p>
 
 <p style="text-align:center">
@@ -90,8 +91,7 @@ Aimez sans la mélancolie.
 
 
 <p style="text-align:right"> <i>
--Nicolas Besson <br/><br/>
-Inspiré de Risk of Rain
+-Nicolas Besson
 </i></p>
 
 
