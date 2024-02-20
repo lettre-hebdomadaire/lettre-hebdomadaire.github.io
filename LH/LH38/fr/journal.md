@@ -2,7 +2,7 @@
 title: "Journal d'un procrastinateur"
 subtitle: "Quatrième entrée : Un sentiment d'accomplissement"
 tags: ["journal"]
-coverimage: "../meca.jpg"
+coverimage: "/LH38/meca.jpg"
 ---
 
 INF224, 22:34, 18 février 2024. Quelques heures avant l'heure de rendu.
