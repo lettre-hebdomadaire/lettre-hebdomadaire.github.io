@@ -2,9 +2,8 @@
 title: "Journal d'un procrastinateur"
 subtitle: "Quatrième entrée : Un sentiment d'accomplissement"
 tags: ["journal"]
+coverimage: "../meca.jpg"
 ---
-
-import Meca from "../meca.jpg"
 
 INF224, 22:34, 18 février 2024. Quelques heures avant l'heure de rendu.
 
@@ -22,5 +21,3 @@ Aussi, je viens d'effacer quelques lignes où j'avais marqué "Je viens d'avoir 
 Car après tout, un procrastinateur peut se permettre de se dire qu'il (ou elle) pourra réfléchir plus tard ! C'est là un corollaire fort simple à déduire...
 
 À bientôt, et la bise au chat !
-
-<img src={Meca.src} alt="Meca" width="100%" />
