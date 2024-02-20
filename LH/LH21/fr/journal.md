@@ -1,5 +1,6 @@
 ---
 title: "Journal d'un procrastinateur"
+tags: ["journal"]
 ---
 
 Samedi dernier, ou celui de la semaine d'avant, j'avais plein de choses à faire et j'étais seul chez moi. Deux chapitres à lire, ou trois, pour le milieu de la semaine. Je suis allé me doucher. Puis j'ai commencé à faire la vaisselle qui s'empilait là depuis quelques repas, ou plus. Je dis commencé car je me suis arrêté en plein milieu car je me suis rappelé que je devais bosser sur un quelconque rapport. Il me manquait dix mille, ou vingt mille, signes pour la fin de semaine, un vendredi.

@@ -1,5 +1,6 @@
 ---
 title: "Journal d'un procrastinateur"
+tags: ["journal"]
 ---
 
 # Seconde entrée : En attendant le rock et plus tard en cours

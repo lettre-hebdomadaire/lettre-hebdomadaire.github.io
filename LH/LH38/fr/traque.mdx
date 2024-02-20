@@ -1,0 +1,58 @@
+---
+title: "Présentation de la Traque"
+---
+
+import Chart1 from "../output1.svg"
+import Chart2 from "../output2.svg"
+import Chart3 from "../output3.svg"
+import Chart4 from "../output4.svg"
+import Chart5 from "../output5.svg"
+
+
+La Traque est un jeu grandeur nature où N équipes de 3 joueurs s'affrontent sur un terrain.
+#### Flowchart général de l'organisation
+Le ***Tableau*** désigne la personne ou les personnes qui actualisent les positions des équipes en jeu. Il y a N équipes qui courent, K personnes au Central qui relayent les positions des équipes ainsi R personnes sur le terrain qui assurent la sécurité des participants, coordonnées par un Responsable Sécurité au Central.
+On préconise  
+K = R/3 = N/6
+<img src={Chart1.src} alt="Flowchart général de l'organisation" width="100%" />
+#### Mise en place
+Une carte délimitant le terrain de jeu est créée, éventuellement des zones peuvent être délimitées afin de pouvoir réduire la zone de jeu en cours de partie. Des copies de la carte sont à faire avant de décider des points de départ de chaque équipe, au moins N+3 cartes. Dont 2 en format A3 ou A2 pour le Tableau.
+
+Une durée entre 15 minutes et 40 minutes est décidée à l'avance, ce sera ***la fenêtre de temps maximale $t_{max}$ entre deux relevés de position GPS*** pour une équipe donnée.
+
+Les critères de la **Capture** sont décidés, voici quelques suggestions:
+- Un membre de l'équipe touche un membre de l'équipe cible.
+- Idem, mais avec des chasubles maintenus à la ceinture. Ils doivent être facilement récupérables.
+- Une photo (en mode sniper) des trois membres de l'équipe cible, *à tester*.
+- Toute suggestion est bien venue !
+
+Chaque équipe se voit attribuée une cible et un point de départ.
+À un ordre arbitraire près on a que :
+L'équipe 1 traque l'équipe 2, qui traque l'équipe 3 et ainsi de suite, jusqu'à l'équipe N qui traque l'équipe 1.
+
+Soit comme sur le schéma suivant:
+
+<img src={Chart2.src} alt="Schéma des cibles" width="100%" />
+
+Au point de rassemblement, les règles sont rappelées aux participants.
+Des organisateurs vont voir chaque équipe l'une après l'autre pour prendre une ***photo de l'équipe*** (*avec et sans les vestes*) et leur donner une ***carte*** avec leur nom (ou numéro) d'équipe ainsi que leur point de départ.
+Une fois la photo prise et la carte reçue l'équipe est invitée à rejoindre son point de départ. Une fois la dernière équipe partie les organisateurs envoient les photos des équipes cibles à chaque équipe.
+#### Règles et fonctionnement du jeu
+Une fois que chaque équipe est à son point de départ et que chacun connaît sa cible le départ du jeu est lancé.
+Les trois membre d'une équipe doivent impérativement rester à portée visuelle ou auditive des autres membres de son équipe.
+
+À partir du lancement du jeu, chaque équipe à jusqu'à $t_{max}$ pour envoyer sa position. Puis au maximum toutes les $t_{max}$ à partir du dernier envoi.
+*En envoyant sa position* au Central, une équipe *reçois en échange* (dans la minute) la ***dernière position connue de sa cible*** au moment de l'envoi.
+
+<img src={Chart3.src} alt="Flowchart de la traque" width="100%" />
+
+En cas de ***Capture***, supposons que i-1 capture i et que i avait i+1 pour cible, alors la nouvelle cible de i-1 est i+1. Après la Capture, l'équipe i-1 marque un point de match et n'est pas capturable pendant deux minutes (le temps de faire valider la Capture par le Central, et de discuter un peu avec l'équipe qui vient d'être éliminée).
+
+<img src={Chart4.src} alt="Flowchart de la capture" width="100%" />
+
+En cas de course poursuite, il se peut qu'un membre s'éloigne plus que les autres. Un tel détachement en course poursuite ne doit pas durer plus de deux minutes sans signe des autres membres de son équipe (le poursuivant doit s'arrêter et attendre son équipe). S'il y a Capture, elle n'est validée que si les trois membres de l'équipe réalisant la capture arrivent en moins d'une minute. Si la Capture n'est pas validée, l'équipe qui traque se voit attribuée un position annexe où se rendre avant de pouvoir continuer à traquer sa cible. L'idée ici est de laisser à la cible presque capturée le temps de mettre de la distance.
+
+<img src={Chart5.src} alt="Flowchart de la course poursuite" width="100%" />
+
+La Traque s'achève lorsqu'il n'y a plus que deux équipes en jeu, elles marquent alors deux ou trois points de match (selon le nombre d'équipes au total) ou lorsque le temps alloué pour l'événement est écoulé, les équipes encore en jeu marquent alors un seul point de match.
+La ou les équipes ayant le plus de points de match sont déclarées gagnantes.

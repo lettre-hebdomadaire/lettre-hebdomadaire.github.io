@@ -1,6 +1,7 @@
 ---
 title: "Journal d'un procrastinateur"
 subtitle: "Troisième entrée: C'est la rentrée !"
+tags: ["journal"]
 ---
 
 Bonne année à vous toutes et tous. Vous m'avez manqué pendant ces vacances !
