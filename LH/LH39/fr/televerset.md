@@ -10,7 +10,7 @@ Vous l'aurez compris, dans ce numéro, on parle de charades. Pour le non-expert,
 
 (origine de la charade)
 
-Les charades, c'est bien.
+Les charades, c'est bien.  
 Mais vous l'aurez remarqué, chez Téléverset on aime bien les calembours. On aime les jeux de mots, les blagues tordues, les traits d'humour.
 Fort heureusement, il existe un art ancestral: Celui des charades occultes, capillotractées et incompréhensibles. Les **charades à tiroir**. 
 
