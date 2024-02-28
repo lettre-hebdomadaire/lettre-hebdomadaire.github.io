@@ -1,5 +1,6 @@
 ---
 title: "Comment dératiser une résidence étudiante"
+tags: [telenuisance]
 ---
 Bonjour à toustes !
 
