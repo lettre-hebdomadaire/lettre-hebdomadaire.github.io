@@ -12,13 +12,9 @@ const listLhs = fs.readdirSync("LH/")
                   .filter((lh) => lh.startsWith("LH"))
                   .map((lh) => parseInt(lh.slice(2)))
                   .sort((a, b) => a-b);
-console.log(listLhs);
 
 const numLH = parseInt(lh.slice(2));
 const indexLH = listLhs.indexOf(numLH);
-console.log(listLhs.length);
-console.log(indexLH);
-
 
 const correctDate = date
     ? new Date(date).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB", {
