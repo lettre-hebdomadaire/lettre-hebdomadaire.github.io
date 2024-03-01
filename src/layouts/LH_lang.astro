@@ -4,11 +4,5 @@ import Template from "./Template.astro";
 const { isArticle, lang, title, use_math } = Astro.props;
 ---
 <Template title={title} langHeader={true} isArticle={true} use_math={use_math}>
-    <style>
-        .deco {
-            filter:blur(3px) saturate(100%);
-            opacity: 0.7;
-        }
-    </style>
     <slot />
 </Template>

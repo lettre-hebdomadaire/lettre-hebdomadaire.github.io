@@ -1,6 +1,5 @@
 ---
-import fr from "../images/fr.png";
-import en from "../images/en.png";
+import fs from "fs";
 import Logo from "../images/Logo_LH2.png";
 import "../styles/style.css";
 import Template from "./Template.astro";
@@ -8,6 +7,18 @@ import Footer from "../components/Footer.astro";
 
 const { posts, lang = "fr", date = null, title } = Astro.props;
 const { lh } = Astro.params;
+
+const listLhs = fs.readdirSync("LH/")
+                  .filter((lh) => lh.startsWith("LH"))
+                  .map((lh) => parseInt(lh.slice(2)))
+                  .sort((a, b) => a-b);
+console.log(listLhs);
+
+const numLH = parseInt(lh.slice(2));
+const indexLH = listLhs.indexOf(numLH);
+console.log(listLhs.length);
+console.log(indexLH);
+
 
 const correctDate = date
     ? new Date(date).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB", {
@@ -19,6 +30,22 @@ const correctDate = date
 ---
 
 <Template title={`${correctDate} - ${lh}`} langHeader={true} lang={lang}>
+    <div style="display: flex; justify-content: space-between; flex-flow: row;">
+        <span style="text-align:left;">
+            { indexLH > 0 &&
+                <>
+                    <a href={`/${"LH"+listLhs[indexLH - 1]}/${lang}/`}>◀ LH précédente</a>
+                </>
+            }
+        </span>
+        <span style="text-align:left;">
+            { indexLH < listLhs.length - 1 &&
+                <>
+                    <a href={`/${"LH"+listLhs[indexLH + 1]}/${lang}/`}>LH suivante ▶</a>
+                </>
+            }
+        </span>
+    </div>
     <div id="banner" text-align="center">
         <b>Edito du {correctDate || "(pas de date !!)"}</b>
     </div>
