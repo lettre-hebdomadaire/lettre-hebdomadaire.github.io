@@ -1,0 +1,27 @@
+---
+---
+
+<button onclick="randomize(); updateHTML()"> Au hasard </button>
+
+<div class="side-parent">
+    <div id="select"> </div>
+    <div id="poeme"> </div>
+</div>
+
+<script is:inline src="/LH/LH13/poemes.js"></script>
+<script is:inline>
+    init();
+</script>
+
+<style>
+    .side-parent {
+        display: flex;
+        flex-direction: row;
+    }
+    #select {
+        width: 50%;
+    }
+    #poeme {
+        width: 50%;
+    }
+</style>
