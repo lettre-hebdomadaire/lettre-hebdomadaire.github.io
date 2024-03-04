@@ -1,7 +1,7 @@
 ---
 title: "Rififi en Téessedeu"
 pubDate: 2023-06-12
-coverimage: "../broceliande.jpg"
+coverimage: "/LH11/broceliande.jpg"
 tags: [rififi]
 ---
 

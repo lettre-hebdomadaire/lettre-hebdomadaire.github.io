@@ -1,7 +1,7 @@
 ---
 title: "Rififi en Téessedeu - 3"
 tags: [rififi]
-coverimage: "../broceliande.jpg"
+coverimage: "/LH40/broceliande.jpg"
 ---
 
 *Pour lire les premiers chapitres de cette histoire, cliquez sur les tags !*
