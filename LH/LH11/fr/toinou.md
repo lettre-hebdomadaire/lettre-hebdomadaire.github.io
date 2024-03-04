@@ -1,7 +1,8 @@
 ---
 title: "Rififi en Téessedeu"
 pubDate: 2023-06-12
-coverimage: "./broceliande.jpg"
+coverimage: "../broceliande.jpg"
+tags: [rififi]
 ---
 
 Il était une fois, dans la lointaine forêt de Brocéliande, un petit être appelé Toinou.

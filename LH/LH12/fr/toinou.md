@@ -1,8 +1,9 @@
 ---
 title: "Rififi en Téessedeu - 2"
 pubDate: 2023-06-19
-coverimage: "./broceliande.jpg"
+coverimage: "../broceliande.jpg"
 order: -1
+tags: [rififi]
 ---
 
 « Il est vraiment beau, pensa Toinou, on dirait le vieux Vangrive, les années en moins et les yeux… »
