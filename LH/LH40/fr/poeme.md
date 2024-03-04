@@ -1,5 +1,5 @@
 ---
-title: "Poème hebdomadaire n°7"
+title: "Poème hebdomadaire n°7 - Le danseur"
 tags: ["poème hebdo"]
 ---
 
