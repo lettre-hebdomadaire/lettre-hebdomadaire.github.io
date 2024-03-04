@@ -8,9 +8,10 @@ const { title, lang = "fr" } = Astro.props;
 
 const goodLhs = lhs
     .sort((a, b) => {
-        return b.file
+        return b.frontmatter?.pubDate > a.frontmatter?.pubDate ? 1 : -1;
+        /*return b.file
             .replace(regex, "$1")
-            .localeCompare(a.file.replace(regex, "$1"), undefined, { numeric: true, sensitivity: "base" });
+            .localeCompare(a.file.replace(regex, "$1"), undefined, { numeric: true, sensitivity: "base" });*/
     })
     .map((oneLh) => {
         const title = oneLh.frontmatter?.pubDate
