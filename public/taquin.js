@@ -98,12 +98,9 @@ function shuffle() {
 }
 
 function shuffle_once() {
-    var x = Math.floor(Math.random() * game.size);
-    var y = Math.floor(Math.random() * game.size);
-    click({
-        clientX: (x * can.width) / game.size + can.offsetLeft,
-        clientY: (y * can.height) / game.size + can.offsetTop,
-    });
+    var i = Math.floor(Math.random() * 4);
+    var j = Math.floor(Math.random() * 4);
+    movePiece(i, j);
 }
 
 function draw() {
@@ -154,15 +151,7 @@ function draw() {
     }
 }
 
-function click(e) {
-    const rect = can.getBoundingClientRect();
-    var x = e.clientX - rect.left < 0 ? 0 : e.clientX - rect.left;
-    var y = e.clientY - rect.top < 0 ? 0 : e.clientY - rect.top;
-    var w = can.width / game.size;
-    var h = can.height / game.size;
-    var i = Math.floor(y / h);
-    var j = Math.floor(x / w);
-
+function movePiece(i, j) {
     if (i == game.emptyCell.x || j == game.emptyCell.y) {
         if (i == game.emptyCell.x) {
             if (j < game.emptyCell.y) {
@@ -214,6 +203,18 @@ function click(e) {
         }
         draw();
     }
+}
+
+function click(e) {
+    const rect = can.getBoundingClientRect();
+    var x = e.clientX - rect.left < 0 ? 0 : e.clientX - rect.left;
+    var y = e.clientY - rect.top < 0 ? 0 : e.clientY - rect.top;
+    var w = can.width / game.size;
+    var h = can.height / game.size;
+    var i = Math.floor(y / h);
+    var j = Math.floor(x / w);
+
+    movePiece(i, j);
 }
 
 function help() {
