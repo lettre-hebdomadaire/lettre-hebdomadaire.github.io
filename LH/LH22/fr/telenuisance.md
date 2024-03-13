@@ -3,6 +3,13 @@ title: "La solution finale au problème différent-phobe"
 tags: ["telenuisance"]
 ---
 
+<img style="display: inline-block" src="/LH22/1.jpg" />
+<img style="display: inline-block" src="/LH22/2.jpg" />
+<img style="display: inline-block" src="/LH22/3.jpg" />
+<br /> <br /> 
+<img style="display: inline-block" src="/LH22/4.jpg" />
+<img style="display: inline-block" src="/LH22/5.jpg" />
+
 **Bonjour à toustes !**  
   
 Aujourd'hui, nous allons nous en prendre à un ennemi commun, un ennemi faible qui se croit fort, et dont forte est plutôt la stupidité et l'odeur nauséabonde (des idées).  
