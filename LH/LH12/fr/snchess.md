@@ -1,7 +1,8 @@
 ---
 title: "La SNCHess"
 pubDate: 2023-06-19
-coverimage: "./sncf.jpg"
+coverimage: "/LH12/sncf.jpg"
+tags: ["SNCHess"]
 ---
 
 Sur le bord des quai, avec ma valise vide\
