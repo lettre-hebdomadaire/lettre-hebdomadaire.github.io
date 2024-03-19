@@ -2,7 +2,6 @@
 title: "Rififi en Téessedeu - 4"
 tags: [rififi]
 coverimage: "/LH40/broceliande.jpg"
-draft: true
 ---
 
 *Pour lire les premiers chapitres de cette histoire, cliquez sur les tags !*
