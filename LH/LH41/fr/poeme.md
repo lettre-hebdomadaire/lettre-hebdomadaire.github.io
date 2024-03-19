@@ -65,6 +65,9 @@ Ignoble dans ce monde bon.
 <p style="text-align:right"> <i>
 -Nicolas Besson
 </i></p>
+<p style="text-align:right"> <i>
+Inspiré de l'Etranger
+</i></p>
 
 Explication du projet :
 
