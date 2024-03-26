@@ -2,7 +2,8 @@
 title: "La Crotique Cinématographique"
 linktitle: "La Crotique Ciné"
 pubDate: 2023-05-06
-coverimage: "morsay.jpg"
+coverimage: "/LH6/morsay.jpg"
+tags: ["crotique"]
 ---
 
  Dans cette première Crotique Cinématographique, nous allons parler d'un film extrêmement important pour le cinéma français. Il constitue une sorte de rupture avec le genre du biopic en proposant une vision inédite à l'époque de la vie de "banlieusard". Injustement critiqué, hélas peu reconnu, le film "La Vengeance" de Morsay est un monument de la cinématographie française, et même internationale.

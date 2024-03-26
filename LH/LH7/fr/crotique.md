@@ -2,7 +2,8 @@
 title: "La Crotique Cinématographique^(TM)"
 linktitle: "La Crotique Ciné"
 pubDate: 2023-05-15
-coverimage: "./live.jpg"
+coverimage: "/LH7/live.jpg"
+tags: ["crotique"]
 ---
 
  Dans cette seconde édition de notre Crotique Cinématographique^(TM), nous allons nous focaliser sur l'évènement le plus important de l'actualité télécommienne : le Live. Pour celleux qui n'auraient malheureusement pas pu assister à sa dernière édition, nous vous proposons un récapitulatif (plus ou moins) détaillé de chaque seconde du Live.
