@@ -53,7 +53,7 @@ $
 il suffit ensuite d'appliquer la matrice. Les gens sont trop bêtes pour ça donc profitez-en. Vous pouvez y aller en augmenter le nombre d'objets, FAITES DES BUNDLE JE VOUS EN CONJURE. N'oubliez pas que vous changez de rôle par rapport à votre cours de première année, vous devenez les voleurs dans les grandes surfaces.
 ### Soyez devant tout le monde, prenez de l'avance
 (se mettre devant dans la page google)
-La publicité coûte particulièrement chère. N'ayez honte de rien, il n'y a jamais de mauvaise publicité. Le nerf de la guerre se situe principalement dans les référencements Google. Soyez le premier en haut de la page, et vous récolterez tous les fruits.
+La publicité coûte particulièrement cher. N'ayez honte de rien, il n'y a jamais de mauvaise publicité. Le nerf de la guerre se situe principalement dans les référencements Google. Soyez le premier en haut de la page, et vous récolterez tous les fruits.
 
 Vous pouvez payer pour faire de la publicité. CE N'EST PAS BON. Votre rentabilité par rapport à l'utilisateur moyen vis-à-vis de vos dépenses sera moindre. Meilleur : utilisez ce HACK de société et d'internet (internet). Certains sites sont temporaires. Une fois que le nom de domaine est lâché, récupérez-le et profitez du traffic qu'il avait. Par exemple, le site marine2017.com était devenu un site d'extracteur de jus. Repérez des influenceurs avec des comorbidités pour récupérer rapidement leur site si jamais ils venaient (tristement bien sûr) à décéder. J'ai notamment récupéré pour mon site d'ouvre-boîtes le site de Grégory Lemarchal à l'époque. Rien ne se perd, tout se transforme. Je suis sûr qu'il aurait été content de ça.
 
