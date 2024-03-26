@@ -58,7 +58,7 @@ Frappé de la même torpeur
 Se préparant à un duel <br />
 Pour retrouver leur âme si belle, <br />
 Peu leur importe le gagnant. <br />
-“Peignons le monde d’or et d’argent”.
+“Peignons le ciel d’or et d’argent”.
 </p>
 
 <p style="text-align:right"> <i>
